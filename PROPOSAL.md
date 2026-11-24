@@ -1,6 +1,6 @@
 # Proposal: Crowd-aware Bus Planner (Problem 2)
 
-**Author:** Om Satarkar (Transport Stack Hackathon 2026)
+**Author:** [Om Satarkar](https://www.linkedin.com/in/om-satarkar-2579392b8/) (Transport Stack Hackathon 2026)
 
 ## Problem relevance
 Journey planners rank bus options by time and changes only, yet a packed bus is slow to board,

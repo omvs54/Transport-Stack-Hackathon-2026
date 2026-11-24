@@ -48,7 +48,11 @@ Group tickets into trips (same route + vehicle, 20-min gap = new trip), running 
 ## Sharing & Next Steps
 We are looking forward to sharing this project on LinkedIn to showcase how empirical ticketing data can power commuter-centric, crowd-aware public transit planning in Delhi.
 
+## Author & Connect
+- **Author:** [Om Satarkar](https://www.linkedin.com/in/om-satarkar-2579392b8/)
+- **GitHub:** [@omvs54](https://github.com/omvs54)
+- **LinkedIn:** [linkedin.com/in/om-satarkar-2579392b8](https://www.linkedin.com/in/om-satarkar-2579392b8/)
+
 ## Credits
-Author: **Om Satarkar** (`omvs54`)  
 Stack: pandas · NumPy · Flask · Leaflet/OSM · gunicorn  
 Data: Delhi Transport Stack (JICA / Chartr / CSM IIIT-D / ARF IIT-K).
