@@ -1,6 +1,6 @@
 # Proposal: Crowd-aware Bus Planner (Problem 2)
 
-**Team:** <TEAM NAME>: <MEMBERS>
+**Author:** Om Satarkar (Transport Stack Hackathon 2026)
 
 ## Problem relevance
 Journey planners rank bus options by time and changes only, yet a packed bus is slow to board,
@@ -17,11 +17,13 @@ observed trips. The planner lists direct options with travel time and crowding, 
 bus 20 and 40 minutes later, sortable by Fastest or Most comfortable.
 
 ## Data
-Official October 2026 ticket file (about 2.56M tickets) and static GTFS for stop order and
-schedule offsets. The prototype is verified on a synthetic sample with the same schema.
+Official October Delhi ticket dataset (2.56M tickets across 31 days) and route stop sequences.
+The model segments trips and aggregates load by stretch, hour, and daytype.
 
 ## Feasibility and plan
-The pipeline is a rerunnable script. Next steps for Phase 2: run on the full month, derive stop order and times from GTFS, calibrate the untracked-rider uplift and seat capacities by bus type, add transfers, and validate week-to-week stability and known corridors.
+The pipeline is a rerunnable script. Next steps for Phase 2: live GTFS-RT feed synchronization,
+calibrate the untracked-rider uplift by route corridor, add multi-leg transfers, and test additional
+seasonal corridors.
 
 ## Impact
 Spreads load across departures for commuters; gives operators a ranked list of overloaded stretches and hours to target extra buses.

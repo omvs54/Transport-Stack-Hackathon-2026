@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Extract top Delhi routes and reconstruct valid stop sequences directly from October-Delhi.csv"""
+import os
 from pathlib import Path
 import pandas as pd
 import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent
-TICKETS_CSV = Path(r"c:\Users\LOQ\Downloads\October-Delhi.csv\October-Delhi.csv")
+# Default to bundled sample, or override with full October file via env var
+TICKETS_CSV = Path(os.environ.get("TICKETS_CSV", BASE_DIR / "data" / "sample_delhi_tickets.csv"))
 OUT_ROUTES_CSV = BASE_DIR / "data" / "routes_stops_delhi.csv"
 
 def build_routes(top_n=12, max_rows=800000):
