@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delhi DTC Crowd-Aware Journey Planner</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    :root {
+      /* 60% Background: Concrete Mist */
+      --bg-canvas: #F4F4F5;
+      
+      /* Surface & Containers: Galvanized Steel */
+      --surface-container: #E4E4E7;
+      --card-bg: #FFFFFF;
+      --border-color: #D4D4D8;
+      
+      /* 30% Primary Brand: Asphalt Charcoal */
+      --primary-charcoal: #18181B;
+      --text-muted: #52525B;
+      
+      /* Secondary Brand: Muted Olive / Slate */
+      --secondary-slate: #3F3F46;
+      --secondary-slate-hover: #27272A;
+      --secondary-slate-light: #F4F4F5;
+      
+      /* 10% Primary Accent: Caution Yellow (pair with #18181B text) */
+      --caution-yellow: #FACC15;
+      --caution-yellow-hover: #EAB308;
+      --caution-yellow-light: #FEFCE8;
+      
+      /* Semantic Status Colors (Strictly for Real-Time Live Crowd Capacity) */
+      --crowd-safe: #10B981;        /* Low / Safe Capacity - Emerald Green */
+      --crowd-safe-bg: #D1FAE5;
+      --crowd-safe-text: #065F46;
+      
+      --crowd-mod: #F59E0B;         /* Moderate / Building - Warm Yellow */
+      --crowd-mod-bg: #FEF3C7;
+      --crowd-mod-text: #92400E;
+      
+      --crowd-crit: #DC2626;        /* Critical / Overcrowded - Alert Red */
+      --crowd-crit-bg: #FEE2E2;
+      --crowd-crit-text: #991B1B;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-canvas);
+      color: var(--primary-charcoal);
+      line-height: 1.5;
+      padding: 24px 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid var(--surface-container);
+    }
+    .badge-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background: var(--surface-container);
+      color: var(--secondary-slate);
+      border: 1px solid var(--border-color);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--primary-charcoal);
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 6px;
+    }
+
+    /* Key System Metrics */
+    .metrics-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin: 18px 0;
+    }
+    .metric-card {
+      background: var(--card-bg);
+      border: 1px solid var(--surface-container);
+      border-top: 3px solid var(--caution-yellow);
+      border-radius: 10px;
+      padding: 12px 16px;
+      box-shadow: 0 1px 3px rgba(24, 24, 27, 0.05);
+    }
+    .metric-val {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--primary-charcoal);
+    }
+    .metric-lbl {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* Search & Journey Inputs */
+    .search-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--surface-container);
+      border-radius: 14px;
+      padding: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(24, 24, 27, 0.04);
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+    @media (max-width: 640px) {
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+    label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary-charcoal);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    select, input {
+      width: 100%;
+      padding: 11px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--surface-container);
+      background: #FFFFFF;
+      color: var(--primary-charcoal);
+      font-size: 0.95rem;
+      font-weight: 500;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    select:focus, input:focus {
+      border-color: var(--secondary-slate);
+      box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.4);
+    }
+
+    /* 1-Click Quick Corridors */
+    .quick-routes {
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px dashed var(--surface-container);
+    }
+    .quick-routes-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--secondary-slate);
+      margin-bottom: 10px;
+    }
+    .chips-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .chip {
+      background: var(--bg-canvas);
+      border: 1px solid var(--border-color);
+      color: var(--primary-charcoal);
+      border-radius: 8px;
+      padding: 7px 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .chip:hover {
+      background: #FFFFFF;
+      border-color: var(--primary-charcoal);
+      transform: translateY(-1px);
+    }
+    .chip.active {
+      background: var(--caution-yellow);
+      border-color: #EAB308;
+      color: var(--primary-charcoal);
+      font-weight: 700;
+      box-shadow: 0 1px 4px rgba(250, 204, 21, 0.35);
+    }
+    .chip-tag {
+      font-size: 0.7rem;
+      background: rgba(24, 24, 27, 0.08);
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+    .swap-btn {
+      background: var(--surface-container);
+      border: 1px solid var(--border-color);
+      color: var(--secondary-slate);
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+    }
+    .swap-btn:hover {
+      background: var(--caution-yellow);
+      color: var(--primary-charcoal);
+      border-color: #EAB308;
+    }
+
+    /* Primary Accent CTA: Caution Yellow (#FACC15) with #18181B text */
+    .btn-search {
+      width: 100%;
+      padding: 14px 20px;
+      background: var(--caution-yellow);
+      color: var(--primary-charcoal);
+      font-weight: 800;
+      border: 1px solid #EAB308;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1.05rem;
+      letter-spacing: 0.01em;
+      transition: background-color 0.15s, transform 0.05s;
+      box-shadow: 0 2px 6px rgba(250, 204, 21, 0.35);
+    }
+    .btn-search:hover {
+      background: var(--caution-yellow-hover);
+    }
+    .btn-search:active {
+      transform: translateY(1px);
+    }
+
+    /* Mode Sort Bar */
+    .sort-bar {
+      display: flex;
+      gap: 10px;
+      margin: 18px 0;
+    }
+    .sort-btn {
+      flex: 1;
+      padding: 11px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--surface-container);
+      background: var(--card-bg);
+      color: var(--secondary-slate);
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.15s;
+    }
+    .sort-btn.active {
+      background: var(--secondary-slate);
+      color: #FFFFFF;
+      border-color: var(--secondary-slate);
+      box-shadow: 0 2px 6px rgba(39, 39, 42, 0.2);
+    }
+
+    /* Real-Time Capacity Legend */
+    .legend-box {
+      background: var(--surface-container);
+      border-radius: 8px;
+      padding: 8px 14px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--primary-charcoal);
+      margin-bottom: 16px;
+    }
+    .legend-title {
+      font-weight: 700;
+      color: var(--primary-charcoal);
+    }
+    .legend-items {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+    .dot-safe { background: var(--crowd-safe); }
+    .dot-mod  { background: var(--crowd-mod); }
+    .dot-crit { background: var(--crowd-crit); }
+
+    /* Interactive Map Container */
+    #map-container {
+      background: var(--card-bg);
+      border: 1px solid var(--surface-container);
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(24, 24, 27, 0.04);
+    }
+    #map {
+      height: 260px;
+      border-radius: 8px;
+      width: 100%;
+    }
+
+    /* Journey Result Cards */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--surface-container);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 14px;
+      box-shadow: 0 2px 5px rgba(24, 24, 27, 0.03);
+      transition: transform 0.1s ease, border-color 0.15s ease;
+      cursor: pointer;
+    }
+    .card:hover, .card.selected {
+      border-color: #71717A;
+      transform: translateY(-1px);
+    }
+    .card.selected {
+      border-left: 4px solid var(--caution-yellow);
+    }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .route-title {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--primary-charcoal);
+    }
+    .time-range {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-left: 8px;
+    }
+
+    /* Semantic Status Badges */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+    .badge-0 { background: var(--crowd-safe-bg); color: var(--crowd-safe-text); border: 1px solid #A7F3D0; }
+    .badge-1 { background: var(--crowd-mod-bg); color: var(--crowd-mod-text); border: 1px solid #FDE68A; }
+    .badge-2 { background: var(--crowd-crit-bg); color: var(--crowd-crit-text); border: 1px solid #FECACA; }
+
+    .details {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+    .details b {
+      color: var(--primary-charcoal);
+    }
+
+    /* Stop-by-stop capacity stretch bar */
+    .stretches-bar {
+      display: flex;
+      gap: 3px;
+      margin: 10px 0;
+      height: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+      background: var(--surface-container);
+    }
+    .stretch-seg {
+      flex: 1;
+      height: 100%;
+      border-radius: 2px;
+      transition: opacity 0.15s;
+    }
+    .seg-0 { background: var(--crowd-safe); }
+    .seg-1 { background: var(--crowd-mod); }
+    .seg-2 { background: var(--crowd-crit); }
+    .seg-null { background: #A1A1AA; }
+
+    /* Hourly Departure Sparkline / Load Profile */
+    .sparkline-box {
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--surface-container);
+    }
+    .sparkline-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .sparkline-bars {
+      display: flex;
+      align-items: flex-end;
+      gap: 3px;
+      height: 38px;
+    }
+    .sp-bar {
+      flex: 1;
+      border-radius: 2px 2px 0 0;
+      transition: transform 0.1s;
+      position: relative;
+    }
+    .sp-bar:hover {
+      transform: scaleY(1.15);
+    }
+    .sp-0 { background: var(--crowd-safe); }
+    .sp-1 { background: var(--crowd-mod); }
+    .sp-2 { background: var(--crowd-crit); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="badge-tag">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      Delhi Transport Stack &bull; Hackathon Problem 02
+    </div>
+    <h1>Delhi Bus Crowdedness-Aware Journey Planner</h1>
+    <p class="subtitle">
+      Real-time expected crowdedness estimated across Delhi DTC routes & corridor stretches, grounded in 2.56M October ETM & e-ticketing records.
+    </p>
+  </header>
+
+  <!-- High-level Empirical Stats -->
+  <div class="metrics-bar">
+    <div class="metric-card">
+      <div class="metric-val">2.56M</div>
+      <div class="metric-lbl">Delhi Tickets Analyzed</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-val">51,221</div>
+      <div class="metric-lbl">Trips Segmented</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-val">1.71x</div>
+      <div class="metric-lbl">Peak vs Midday Load</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-val">89.8%</div>
+      <div class="metric-lbl">Week-to-Week Stability</div>
+    </div>
+  </div>
+
+  <!-- Route Selection Panel -->
+  <div class="search-panel">
+    <!-- 1-Click Popular Corridor Suggestions -->
+    <div class="quick-routes">
+      <div class="quick-routes-label">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        1-Click Popular Corridors (Instant Route & Map Update):
+      </div>
+      <div class="chips-container" id="chips">
+        <button type="button" class="chip active" onclick="applyQuickRoute('Anand Vihar ISBT', 'Connaught Place', '18:00', 'weekday', this)">
+          ⭐ Anand Vihar &rarr; Connaught Place <span class="chip-tag">Benchmark</span>
+        </button>
+        <button type="button" class="chip" onclick="applyQuickRoute('Badarpur Border (T)', 'Kapashera Border', '09:00', 'weekday', this)">
+          🚌 Badarpur &rarr; Kapashera <span class="chip-tag">Route 717A</span>
+        </button>
+        <button type="button" class="chip" onclick="applyQuickRoute('Connaught Place', 'Anand Vihar ISBT', '18:30', 'weekday', this)">
+          🔄 Connaught Place &rarr; Anand Vihar <span class="chip-tag">Return Peak</span>
+        </button>
+        <button type="button" class="chip" onclick="applyQuickRoute('Laxmi Nagar', 'Connaught Place', '08:30', 'weekday', this)">
+          🚇 Laxmi Nagar &rarr; Connaught Place <span class="chip-tag">Morning Rush</span>
+        </button>
+        <button type="button" class="chip" onclick="applyQuickRoute('Taj Palace Hotel', 'Dr. Rml Hospital', '09:00', 'weekday', this)">
+          🏢 Taj Palace &rarr; RML Hospital <span class="chip-tag">Route 729</span>
+        </button>
+      </div>
+    </div>
+
+    <form id="f">
+      <div class="grid-2">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+            <label for="from" style="margin-bottom:0;">Origin Stop</label>
+            <button type="button" class="swap-btn" onclick="swapStops()" title="Swap Origin and Destination">⇄ Swap</button>
+          </div>
+          <select id="from" onchange="onStopChange()"></select>
+        </div>
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+            <label for="to" style="margin-bottom:0;">Destination Stop</label>
+          </div>
+          <select id="to" onchange="onStopChange()"></select>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div>
+          <label for="t">Departure Time</label>
+          <input id="t" type="time" value="18:00" onchange="onStopChange()">
+        </div>
+        <div>
+          <label for="day">Day Type</label>
+          <select id="day" onchange="onStopChange()">
+            <option value="weekday">Weekday (Morning / Evening Peak Flow)</option>
+            <option value="weekend">Weekend (Leisure / Off-Peak Flow)</option>
+          </select>
+        </div>
+      </div>
+      <!-- Primary Accent CTA -->
+      <button class="btn-search" type="submit">
+        Search Routes with Crowdedness Estimates
+      </button>
+    </form>
+  </div>
+
+  <!-- Optimization Toggle -->
+  <div class="sort-bar">
+    <button id="s1" class="sort-btn active" type="button">&uarr; Fastest (Minimize Travel Time)</button>
+    <button id="s2" class="sort-btn" type="button">&starf; Most Comfortable (Avoid Crowds)</button>
+  </div>
+
+  <!-- Strict Semantic Status Legend -->
+  <div class="legend-box">
+    <span class="legend-title">Live Capacity Indicators:</span>
+    <div class="legend-items">
+      <div class="legend-item"><span class="dot dot-safe"></span> Low / Safe (&lt;85% seated)</div>
+      <div class="legend-item"><span class="dot dot-mod"></span> Moderate / Building (&lt;170% capacity)</div>
+      <div class="legend-item"><span class="dot dot-crit"></span> Critical / Overcrowded (&gt;170% capacity)</div>
+    </div>
+  </div>
+
+  <!-- Interactive Route Map -->
+  <div id="map-container">
+    <div style="font-size:0.8rem; font-weight:700; color:var(--primary-charcoal); margin-bottom:8px; display:flex; justify-content:space-between;">
+      <span>Route Corridors & Stretches</span>
+      <span id="map-status" style="color:var(--text-muted); font-weight:500;">Select an option below to inspect corridor</span>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <div id="res"></div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+let data = [], mode = 'fast', selectedIndex = 0;
+let map, routeLayer;
+
+function initMap() {
+  map = L.map('map').setView([28.58, 77.22], 11);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; OpenStreetMap'
+  }).addTo(map);
+}
+
+function updateMap(option) {
+  if (!map || !option || !option.coords || option.coords.length === 0) return;
+  if (routeLayer) map.removeLayer(routeLayer);
+  
+  routeLayer = L.layerGroup();
+  const latlngs = option.coords.map(c => [c.lat, c.lon]);
+  
+  // Color based on capacity level
+  const color = option.level === 0 ? '#10B981' : (option.level === 1 ? '#F59E0B' : '#DC2626');
+  
+  const polyline = L.polyline(latlngs, {
+    color: color,
+    weight: 5,
+    opacity: 0.85
+  }).addTo(routeLayer);
+  
+  // Origin and destination markers
+  const start = option.coords[0];
+  const end = option.coords[option.coords.length - 1];
+  
+  L.circleMarker([start.lat, start.lon], { radius: 6, color: '#18181B', fillColor: '#10B981', fillOpacity: 1 }).bindPopup(`<b>Start:</b> ${start.name}`).addTo(routeLayer);
+  L.circleMarker([end.lat, end.lon], { radius: 6, color: '#18181B', fillColor: '#DC2626', fillOpacity: 1 }).bindPopup(`<b>End:</b> ${end.name}`).addTo(routeLayer);
+  
+  routeLayer.addTo(map);
+  map.fitBounds(polyline.getBounds(), { padding: [25, 25] });
+  $('map-status').innerText = `Viewing ${option.route} (${option.depart} - ${option.arrive}) • ${option.level_label}`;
+}
+
+async function init() {
+  try {
+    initMap();
+    const st = await (await fetch('/api/stops')).json();
+    for (const s of ['from', 'to']) {
+      $(s).innerHTML = st.map(x => `<option value="${x}">${x}</option>`).join('');
+    }
+    if (st.includes('Anand Vihar ISBT')) $('from').value = 'Anand Vihar ISBT';
+    else if (st.includes('Badarpur Border (T)')) $('from').value = 'Badarpur Border (T)';
+
+    if (st.includes('Connaught Place')) $('to').value = 'Connaught Place';
+    else if (st.includes('Kapashera Border')) $('to').value = 'Kapashera Border';
+    
+    fetchRoutes();
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+function render() {
+  const d = [...data];
+  d.sort(mode === 'fast'
+    ? (a, b) => a.minutes - b.minutes || a.delay_min - b.delay_min
+    : (a, b) => a.level - b.level || a.peak_load - b.peak_load || a.minutes - b.minutes
+  );
+
+  if (!d.length) {
+    $('res').innerHTML = '<div class="card" style="text-align:center; color:var(--text-muted); padding:28px;">No direct route found between selected stops. Try switching origin/destination or select another corridor!</div>';
+    if (routeLayer && map) map.removeLayer(routeLayer);
+    return;
+  }
+
+  $('res').innerHTML = d.map((o, idx) => `
+    <div class="card ${idx === selectedIndex ? 'selected' : ''}" onclick="selectOption(${idx})">
+      <div class="card-top">
+        <div>
+          <span class="route-title">Route ${o.route}</span>
+          <span class="time-range">${o.depart} &rarr; ${o.arrive} (${o.minutes} min)</span>
+        </div>
+        <span class="badge badge-${o.level}">${o.level_label}</span>
+      </div>
+      <div class="details">
+        ${o.delay_min ? `Leaves <b>${o.delay_min} min later</b> &bull; ` : ''}
+        Busiest stretch: <b>${o.worst_stretch}</b> (~${o.peak_load} on board) &bull; Confidence: <b>${o.confidence}</b>
+      </div>
+      <div class="stretches-bar" title="Stop-by-stop live capacity across stretches">
+        ${o.stretches.map(s => `
+          <div class="stretch-seg seg-${s.level}" title="${s.from_stop} &rarr; ${s.to_stop} (est. load: ${s.load !== null ? s.load : 'N/A'})"></div>
+        `).join('')}
+      </div>
+      
+      <!-- Hourly Crowding Profile Sparkline -->
+      <div class="sparkline-box">
+        <div class="sparkline-header">
+          <span>Expected Crowdedness Profile (06:00 - 22:00)</span>
+          <span>Peak: ${o.peak_load} pax</span>
+        </div>
+        <div class="sparkline-bars" title="Hourly expected load across the corridor">
+          ${(o.hourly_profile || []).map(hp => {
+            const h = Math.max(12, Math.min(38, Math.round((hp.load / 35) * 35)));
+            return `<div class="sp-bar sp-${hp.level}" style="height:${h}px;" title="${hp.hour}: est. ${hp.load} passengers"></div>`;
+          }).join('')}
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  if (d[selectedIndex]) {
+    updateMap(d[selectedIndex]);
+  }
+}
+
+function selectOption(idx) {
+  selectedIndex = idx;
+  const d = [...data];
+  d.sort(mode === 'fast'
+    ? (a, b) => a.minutes - b.minutes || a.delay_min - b.delay_min
+    : (a, b) => a.level - b.level || a.peak_load - b.peak_load || a.minutes - b.minutes
+  );
+  document.querySelectorAll('.card').forEach((el, i) => {
+    el.classList.toggle('selected', i === idx);
+  });
+  if (d[idx]) updateMap(d[idx]);
+}
+
+function applyQuickRoute(from, to, time, day, btn) {
+  $('from').value = from;
+  $('to').value = to;
+  if (time) $('t').value = time;
+  if (day) $('day').value = day;
+
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  fetchRoutes();
+}
+
+function swapStops() {
+  const f = $('from').value;
+  const t = $('to').value;
+  $('from').value = t;
+  $('to').value = f;
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  fetchRoutes();
+}
+
+function onStopChange() {
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+}
+
+async function fetchRoutes() {
+  $('res').innerHTML = '<p style="color:var(--text-muted); padding:10px 0;">Loading route options & live crowdedness predictions...</p>';
+  const q = new URLSearchParams({
+    from: $('from').value,
+    to: $('to').value,
+    depart: $('t').value,
+    day: $('day').value
+  });
+  const res = await fetch('/api/options?' + q);
+  data = await res.json();
+  selectedIndex = 0;
+  render();
+}
+
+$('f').onsubmit = e => {
+  e.preventDefault();
+  fetchRoutes();
+};
+
+$('s1').onclick = () => {
+  mode = 'fast';
+  $('s1').classList.add('active');
+  $('s2').classList.remove('active');
+  render();
+};
+
+$('s2').onclick = () => {
+  mode = 'comfort';
+  $('s2').classList.add('active');
+  $('s1').classList.remove('active');
+  render();
+};
+
+init();
+</script>
+</body>
+</html>

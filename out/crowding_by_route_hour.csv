@@ -1,0 +1,536 @@
+route,daytype,hour,from_stop,to_stop,mean_load,p80_load,level_label,n_trips,confidence
+511ADOWN,weekday,0,Munirka Village (T),Panchsheel Club / Sarvpriya Vihar,0.0,0.0,Seats available,1,low
+511ADOWN,weekday,1,Kalkaji Depot,Crown Plaza,0.0,0.0,Seats available,1,low
+511ADOWN,weekday,4,Munirka Dda Flats,Nanak Pura Gurudwara Moti Bagh,0.1,0.0,Seats available,17,medium
+511ADOWN,weekday,5,E.S.I. Hospital,Lal Kuan,1.2,1.2,Seats available,1,low
+511ADOWN,weekday,6,E.S.I. Hospital,Lal Kuan,1.7,2.8,Seats available,34,high
+511ADOWN,weekday,7,Katwaria Sarai,Munirka Village (T),1.2,2.3,Seats available,166,high
+511ADOWN,weekday,8,Sanskrit Vidyapeeth,Mothers International School,2.2,4.6,Seats available,190,high
+511ADOWN,weekday,9,Tehkhand Depot Dtc,Punj Sons / Govind Puri Metro Station,2.8,5.8,Seats available,203,high
+511ADOWN,weekday,10,Punj Sons / Govind Puri Metro Station,Nehru Place Terminal,2.2,4.4,Seats available,192,high
+511ADOWN,weekday,11,Katwaria Sarai,Munirka Village (T),1.2,2.3,Seats available,160,high
+511ADOWN,weekday,12,Katwaria Sarai,Munirka Village (T),0.9,2.3,Seats available,121,high
+511ADOWN,weekday,13,Istm / Jnu,Satya Niketan,1.1,1.8,Seats available,78,high
+511ADOWN,weekday,14,Os Communications,Dhaula Kuan (Ring Road),0.7,1.2,Seats available,67,high
+511ADOWN,weekday,15,Nehru Place Terminal,Kalkaji Depot,0.9,2.3,Seats available,81,high
+511ADOWN,weekday,16,Kalkaji Mandir (Maaanandmayeemarg),Os Communications,0.9,1.2,Seats available,188,high
+511ADOWN,weekday,17,Katwaria Sarai,Munirka Village (T),1.3,2.3,Seats available,207,high
+511ADOWN,weekday,18,E.S.I. Hospital,Lal Kuan,1.7,3.4,Seats available,213,high
+511ADOWN,weekday,19,E.S.I. Hospital,Lal Kuan,1.7,3.4,Seats available,195,high
+511ADOWN,weekday,20,Nehru Place Terminal,Kalkaji Depot,1.5,2.3,Seats available,280,high
+511ADOWN,weekday,21,Okhla Crossing,Badarpur M B Road / Rajiv Gandhi Stadium,1.7,3.4,Seats available,224,high
+511ADOWN,weekday,22,Nehru Place Terminal,Kalkaji Depot,1.3,2.3,Seats available,74,high
+511ADOWN,weekday,23,Rk Puram Sec1,Istm / Jnu,1.7,2.1,Seats available,4,low
+511ADOWN,weekend,0,Okhla Crossing,Badarpur M B Road / Rajiv Gandhi Stadium,0.2,0.2,Seats available,5,low
+511ADOWN,weekend,4,Rk Puram Sec1,Istm / Jnu,2.3,2.3,Seats available,1,low
+511ADOWN,weekend,5,Rk Puram Crossing,Tehkhand Depot Dtc,4.6,4.6,Seats available,1,low
+511ADOWN,weekend,6,Badarpur Jaitpur Crossing,Pul Pehladpur (Badarpur),2.1,4.6,Seats available,7,low
+511ADOWN,weekend,7,Katwaria Sarai,Munirka Village (T),0.9,2.3,Seats available,56,high
+511ADOWN,weekend,8,Swami Nagar,Kalkaji Mandir (Maaanandmayeemarg),1.4,2.3,Seats available,63,high
+511ADOWN,weekend,9,Nehru Place Terminal,Kalkaji Depot,1.9,3.4,Seats available,83,high
+511ADOWN,weekend,10,Kalkaji Depot,Crown Plaza,1.2,2.3,Seats available,92,high
+511ADOWN,weekend,11,Katwaria Sarai,Munirka Village (T),1.1,1.2,Seats available,49,high
+511ADOWN,weekend,12,Satya Niketan,Katwaria Sarai,1.2,2.3,Seats available,46,high
+511ADOWN,weekend,13,Istm / Jnu,Satya Niketan,1.1,2.3,Seats available,42,high
+511ADOWN,weekend,14,Dhaula Kuan (Ring Road),Bank,0.9,1.2,Seats available,39,high
+511ADOWN,weekend,15,Istm / Jnu,Satya Niketan,0.9,1.2,Seats available,63,high
+511ADOWN,weekend,16,Surajkund Crossing,E.S.I. Hospital,1.2,2.3,Seats available,60,high
+511ADOWN,weekend,17,Kalkaji Mandir (Maaanandmayeemarg),Os Communications,1.2,2.3,Seats available,77,high
+511ADOWN,weekend,18,E.S.I. Hospital,Lal Kuan,1.6,2.3,Seats available,71,high
+511ADOWN,weekend,19,Crpf Camp / Crown Plaza,Clal Chowk,1.6,2.3,Seats available,46,high
+511ADOWN,weekend,20,E.S.I. Hospital,Lal Kuan,1.3,2.3,Seats available,87,high
+511ADOWN,weekend,21,Badarpur M B Road / Rajiv Gandhi Stadium,Crpf Camp / Crown Plaza,1.5,2.3,Seats available,76,high
+511ADOWN,weekend,22,Kalkaji Mandir (Maaanandmayeemarg),Os Communications,1.4,2.3,Seats available,32,high
+511ADOWN,weekend,23,Satya Niketan,Katwaria Sarai,1.9,3.0,Seats available,3,low
+511AUP,weekday,0,Swami Nagar,R K Puram Nab,1.2,1.8,Seats available,2,low
+511AUP,weekday,3,Badarpur Border(T),Pul Prehladpur ( Badarpur),0.0,0.0,Seats available,3,low
+511AUP,weekday,4,Pul Prehladpur ( Badarpur),Surajkund Crossing,0.5,1.2,Seats available,29,high
+511AUP,weekday,5,Kalkaji Depot,Kalkaji Mandir (Maaanandmayeemarg),1.2,2.3,Seats available,116,high
+511AUP,weekday,6,Paras Cinema,Indra Kalyan Vihar,1.4,2.3,Seats available,132,high
+511AUP,weekday,7,Sanskrit Vidyapeeth,Chirag Dilli / Chirag Delhi Metro Station,1.9,3.4,Seats available,185,high
+511AUP,weekday,8,Lal Kuan,Clal Chowk,2.7,5.8,Seats available,258,high
+511AUP,weekday,9,Clal Chowk,Crpf Camp / Crown Plaza,3.0,5.8,Seats available,225,high
+511AUP,weekday,10,Lal Kuan,Clal Chowk,2.0,3.4,Seats available,266,high
+511AUP,weekday,11,Tehkhand Depot Dtc,Sanskrit Vidyapeeth,1.2,2.3,Seats available,214,high
+511AUP,weekday,12,Kalkaji Depot,Kalkaji Mandir (Maaanandmayeemarg),1.3,2.3,Seats available,105,high
+511AUP,weekday,13,Chirag Dilli / Chirag Delhi Metro Station,Nehru Place Terminal,0.9,1.2,Seats available,138,high
+511AUP,weekday,14,Okhla Phase 1,Jnu / Jnu Xing,0.8,1.2,Seats available,169,high
+511AUP,weekday,15,Panchsheel Club (Sarv Priya Vihar),Rk Puram Sec 7 Som Vihar / Rk Puram Sec Crossing,0.9,1.2,Seats available,166,high
+511AUP,weekday,16,Qutub Hotel / Govt. Medical Store Departement,Sadhna Enclave,1.2,2.3,Seats available,89,high
+511AUP,weekday,17,Adhchini Village,Swami Nagar,2.1,4.6,Seats available,110,high
+511AUP,weekday,18,Jnu / Jnu Xing,Punj Sons / Govind Puri Metro Station,1.6,2.3,Seats available,265,high
+511AUP,weekday,19,Adhchini Village,Swami Nagar,2.2,4.6,Seats available,238,high
+511AUP,weekday,20,Adhchini Village,Swami Nagar,2.2,4.6,Seats available,159,high
+511AUP,weekday,21,Paras Cinema,Indra Kalyan Vihar,1.1,2.1,Seats available,77,high
+511AUP,weekday,22,Pul Prehladpur ( Badarpur),Surajkund Crossing,0.9,1.2,Seats available,16,medium
+511AUP,weekday,23,Paras Cinema,Indra Kalyan Vihar,1.2,1.2,Seats available,1,low
+511AUP,weekend,0,Ber Sarai/Jnu,Sangam Cinema Rk Puram Sec12,0.0,0.0,Seats available,1,low
+511AUP,weekend,4,Surajkund Crossing,Lal Kuan,0.9,1.4,Seats available,10,medium
+511AUP,weekend,5,Kalkaji Depot,Kalkaji Mandir (Maaanandmayeemarg),1.3,2.3,Seats available,44,high
+511AUP,weekend,6,Jnu / Jnu Xing,Punj Sons / Govind Puri Metro Station,1.2,2.3,Seats available,53,high
+511AUP,weekend,7,Paras Cinema,Indra Kalyan Vihar,1.8,2.3,Seats available,52,high
+511AUP,weekend,8,Jnu / Jnu Xing,Punj Sons / Govind Puri Metro Station,1.8,3.4,Seats available,70,high
+511AUP,weekend,9,Clal Chowk,Crpf Camp / Crown Plaza,2.4,4.6,Seats available,62,high
+511AUP,weekend,10,Sanskrit Vidyapeeth,Chirag Dilli / Chirag Delhi Metro Station,1.9,4.6,Seats available,69,high
+511AUP,weekend,11,Indra Kalyan Vihar,Esi Hospital Okhla,1.1,2.3,Seats available,75,high
+511AUP,weekend,12,Indra Kalyan Vihar,Esi Hospital Okhla,1.5,3.4,Seats available,22,high
+511AUP,weekend,13,Panchsheel Club (Sarv Priya Vihar),Rk Puram Sec 7 Som Vihar / Rk Puram Sec Crossing,1.5,2.3,Seats available,25,high
+511AUP,weekend,14,Jnu / Jnu Xing,Punj Sons / Govind Puri Metro Station,0.9,1.2,Seats available,72,high
+511AUP,weekend,15,Panchsheel Club (Sarv Priya Vihar),Rk Puram Sec 7 Som Vihar / Rk Puram Sec Crossing,0.9,1.2,Seats available,70,high
+511AUP,weekend,16,Adhchini Village,Swami Nagar,1.0,1.2,Seats available,43,high
+511AUP,weekend,17,Sadhna Enclave,Panchsheel Club (Sarv Priya Vihar),1.0,1.6,Seats available,49,high
+511AUP,weekend,18,R K Puram Nab,R. K. Puram Sec-12 / R. K. Puram Sec,1.4,2.3,Seats available,83,high
+511AUP,weekend,19,Iit Gate,Ncert,1.4,2.3,Seats available,79,high
+511AUP,weekend,20,R K Puram Nab,R. K. Puram Sec-12 / R. K. Puram Sec,1.6,2.3,Seats available,67,high
+511AUP,weekend,21,Paras Cinema,Indra Kalyan Vihar,1.1,2.3,Seats available,25,high
+511AUP,weekend,22,Rk Puram Sec 7 Som Vihar / Rk Puram Sec Crossing,Adhchini Village,1.2,2.3,Seats available,25,high
+511AUP,weekend,23,Jnu / Jnu Xing,Punj Sons / Govind Puri Metro Station,0.6,0.9,Seats available,2,low
+578DOWN,weekday,0,R.K. Puram Sec-4 (Andh Vidyalaya),Chhawala Camp/Bsf,0.6,0.9,Seats available,2,low
+578DOWN,weekday,1,Mohamed Pur Village,R.K. Puram Sec-1,0.0,0.0,Seats available,2,low
+578DOWN,weekday,4,Check Post,R.K. Puram Sec-4 (Andh Vidyalaya),0.9,1.6,Seats available,4,low
+578DOWN,weekday,5,Shiv Murti,Rang Puri Village,2.4,3.4,Seats available,22,high
+578DOWN,weekday,6,Swami Malai Mandir,Vasant Vihar Depot,1.6,2.3,Seats available,176,high
+578DOWN,weekday,7,Swami Malai Mandir,Vasant Vihar Depot,1.5,2.3,Seats available,250,high
+578DOWN,weekday,8,Bijwason Flyover Before Bridge,Mahipal Pur Extension,2.0,3.4,Seats available,337,high
+578DOWN,weekday,9,Vasant Village,Pashchimi Marg Vasant Vihar,2.0,3.4,Seats available,324,high
+578DOWN,weekday,10,Vasant Vihar Depot,Kapashera Crossing,2.0,3.4,Seats available,278,high
+578DOWN,weekday,11,Chhawala School,Raj Nagar,1.5,2.3,Seats available,170,high
+578DOWN,weekday,12,Durga Vihar,Deen Pur Village,1.5,2.3,Seats available,49,high
+578DOWN,weekday,13,Aps Colony,Bamnoli,1.8,3.4,Seats available,57,high
+578DOWN,weekday,14,Samalkha Xing,Shiv Murti,1.0,1.2,Seats available,83,high
+578DOWN,weekday,15,Swami Malai Mandir,Vasant Vihar Depot,0.9,1.2,Seats available,133,high
+578DOWN,weekday,16,Bamnoli,Vasant Vihar Crossing/R.K.Puram Sec-5,0.9,1.2,Seats available,213,high
+578DOWN,weekday,17,Vasant Vihar Depot,Kapashera Crossing,1.2,2.1,Seats available,247,high
+578DOWN,weekday,18,Mahipal Pur Extension,R.K. Puram Sec-6,1.3,2.3,Seats available,213,high
+578DOWN,weekday,19,Swami Malai Mandir,Vasant Vihar Depot,1.2,2.3,Seats available,260,high
+578DOWN,weekday,20,Desu Powar House,Durga Vihar,1.4,2.3,Seats available,127,high
+578DOWN,weekday,21,Chhawala Village,Pushpanjali (Farm),1.6,2.5,Seats available,100,high
+578DOWN,weekday,22,Bsf Staff Quarter,Harijan Basti,1.4,2.3,Seats available,16,medium
+578DOWN,weekday,23,Bamnoli,Vasant Vihar Crossing/R.K.Puram Sec-5,1.3,1.2,Seats available,7,low
+578DOWN,weekend,0,Mahipal Pur,Kapashera Village,0.0,0.0,Seats available,1,low
+578DOWN,weekend,4,Signal Enclave,Bsf Staff Quarter,0.5,1.2,Seats available,9,medium
+578DOWN,weekend,5,Swami Malai Mandir,Vasant Vihar Depot,2.2,2.8,Seats available,9,medium
+578DOWN,weekend,6,Shiv Murti,Rang Puri Village,2.1,3.4,Seats available,63,high
+578DOWN,weekend,7,Vasant Vihar Depot,Kapashera Crossing,1.6,2.3,Seats available,102,high
+578DOWN,weekend,8,Bijwason Flyover Before Bridge,Mahipal Pur Extension,1.4,2.3,Seats available,97,high
+578DOWN,weekend,9,Signal Enclave,Bsf Staff Quarter,1.6,3.4,Seats available,105,high
+578DOWN,weekend,10,Vasant Vihar Depot,Kapashera Crossing,1.8,2.3,Seats available,106,high
+578DOWN,weekend,11,Bdo Office,Goela Crossing,1.2,1.2,Seats available,49,high
+578DOWN,weekend,12,R.K. Puram Sec-4 (Andh Vidyalaya),Chhawala Camp/Bsf,1.6,2.3,Seats available,34,high
+578DOWN,weekend,13,Pushpanjali (Farm),Check Post,1.1,2.3,Seats available,34,high
+578DOWN,weekend,14,Vasant Village,Pashchimi Marg Vasant Vihar,0.9,1.2,Seats available,44,high
+578DOWN,weekend,15,R.K. Puram Sec-6,Samalkha Xing,0.8,1.2,Seats available,47,high
+578DOWN,weekend,16,Rang Puri Village,Swami Malai Mandir,1.3,2.3,Seats available,77,high
+578DOWN,weekend,17,Bamnoli,Vasant Vihar Crossing/R.K.Puram Sec-5,1.1,2.3,Seats available,95,high
+578DOWN,weekend,18,Swami Malai Mandir,Vasant Vihar Depot,1.4,2.3,Seats available,91,high
+578DOWN,weekend,19,Bamnoli,Vasant Vihar Crossing/R.K.Puram Sec-5,1.0,1.2,Seats available,93,high
+578DOWN,weekend,20,Samalkha Xing,Shiv Murti,1.3,2.3,Seats available,77,high
+578DOWN,weekend,21,Chhawala Village,Pushpanjali (Farm),1.4,2.3,Seats available,50,high
+578DOWN,weekend,22,Chhawala School,Raj Nagar,2.0,3.0,Seats available,13,medium
+578DOWN,weekend,23,Chhawala Stand N.Garh,Roshan Pura,1.2,1.2,Seats available,1,low
+578UP,weekday,0,Swami Malai Mandir,Rang Puri Village,1.2,1.2,Seats available,1,low
+578UP,weekday,1,Goela Crossing,Bdo Office,0.0,0.0,Seats available,1,low
+578UP,weekday,4,Kidwai Nagar,Hyatt Hotel,0.0,0.0,Seats available,9,medium
+578UP,weekday,5,Check Post,Mahipal Pur,0.3,0.2,Seats available,15,medium
+578UP,weekday,6,Chhawala School,Subroto Park / Arjun Path,1.9,3.4,Seats available,62,high
+578UP,weekday,7,Bijwason School,Nhw 8- Crossing,2.2,4.6,Seats available,69,high
+578UP,weekday,8,Chhawala School,Subroto Park / Arjun Path,2.2,3.4,Seats available,263,high
+578UP,weekday,9,Samalkha Village,Chhawala School,2.0,3.4,Seats available,321,high
+578UP,weekday,10,Signal Enclave,Vasant Village,1.1,2.3,Seats available,200,high
+578UP,weekday,11,Ina Colony,Signal Enclave,0.9,2.3,Seats available,233,high
+578UP,weekday,12,Kapashera Crossing,Aps Colony,1.1,2.3,Seats available,187,high
+578UP,weekday,13,Check Post,Mahipal Pur,1.2,2.3,Seats available,126,high
+578UP,weekday,14,Kapashera Crossing,Aps Colony,1.1,2.3,Seats available,68,high
+578UP,weekday,15,Kapashera Crossing,Aps Colony,1.4,2.3,Seats available,34,high
+578UP,weekday,16,Durga Vihar,Bijwason Flyover After Bridge,2.3,3.4,Seats available,28,high
+578UP,weekday,17,Kapashera Crossing,Aps Colony,1.6,2.3,Seats available,201,high
+578UP,weekday,18,Kapashera Crossing,Aps Colony,1.8,3.4,Seats available,252,high
+578UP,weekday,19,Aps Colony,Samalkha Village,1.8,3.4,Seats available,323,high
+578UP,weekday,20,Kapashera Crossing,Aps Colony,1.6,2.3,Seats available,295,high
+578UP,weekday,21,Samalkha Village,Chhawala School,2.3,3.4,Seats available,265,high
+578UP,weekday,22,Syndicate Bank,Bamnoli,1.7,2.3,Seats available,241,high
+578UP,weekday,23,Aps Colony,Samalkha Village,1.3,2.3,Seats available,31,high
+578UP,weekend,0,Kapashera Crossing,Aps Colony,1.2,1.2,Seats available,1,low
+578UP,weekend,1,Jharoda More,Dhansa Stand Najaf Garh,1.2,1.2,Seats available,1,low
+578UP,weekend,4,Kidwai Nagar,Hyatt Hotel,0.0,0.0,Seats available,1,low
+578UP,weekend,5,Swami Malai Mandir,Rang Puri Village,1.2,1.2,Seats available,1,low
+578UP,weekend,6,Goela Crossing,Bdo Office,5.8,5.8,Seats available,1,low
+578UP,weekend,7,Chhawala Camp,Rajoukari X-Ing,1.8,2.3,Seats available,26,high
+578UP,weekend,8,Bijwason Flyover After Bridge,Bsf Staff Quarter,1.6,2.3,Seats available,70,high
+578UP,weekend,9,Samalkha Village,Chhawala School,1.6,2.3,Seats available,98,high
+578UP,weekend,10,Pashchimi Marg Vasant Vihar,Ina Colony,1.0,2.3,Seats available,69,high
+578UP,weekend,11,Vasant Village,Check Post,1.0,1.6,Seats available,89,high
+578UP,weekend,12,Samalkha Crossing,Syndicate Bank,1.3,2.3,Seats available,83,high
+578UP,weekend,13,Signal Enclave,Vasant Village,1.1,2.3,Seats available,39,high
+578UP,weekend,14,Chhawala School,Subroto Park / Arjun Path,1.3,2.1,Seats available,17,medium
+578UP,weekend,15,Bamnoli,Jhatikra Crossing,1.9,3.0,Seats available,13,medium
+578UP,weekend,16,Bsf Staff Quarter,Chhawala Village,2.0,2.3,Seats available,14,medium
+578UP,weekend,17,Pushpanjali (Farm),Chhawala Camp,1.6,2.3,Seats available,79,high
+578UP,weekend,18,Kapashera Crossing,Aps Colony,1.2,2.3,Seats available,73,high
+578UP,weekend,19,Samalkha Village,Chhawala School,1.7,3.4,Seats available,124,high
+578UP,weekend,20,Aps Colony,Samalkha Village,1.5,2.3,Seats available,107,high
+578UP,weekend,21,Samalkha Crossing,Syndicate Bank,1.8,2.5,Seats available,115,high
+578UP,weekend,22,Kapashera Crossing,Aps Colony,1.3,2.3,Seats available,87,high
+578UP,weekend,23,Munirka Village,Desu Powar House,1.2,1.8,Seats available,2,low
+623DOWN,weekday,0,Humayun Road,S J Hospital,1.2,1.2,Seats available,1,low
+623DOWN,weekday,1,Baroda House,Krishna Nagar A Block,1.2,1.2,Seats available,1,low
+623DOWN,weekday,3,Nelson Mandela Marg,Nangal Dewat,0.0,0.0,Seats available,2,low
+623DOWN,weekday,4,Nelson Mandela Marg,Nangal Dewat,0.0,0.0,Seats available,25,high
+623DOWN,weekday,5,Laxmi Nagar,Shahdara Terminal,1.2,1.2,Seats available,1,low
+623DOWN,weekday,6,Laxmi Nagar,Shahdara Terminal,1.6,2.3,Seats available,11,medium
+623DOWN,weekday,7,Defence Colony,Jhar Khandi,1.9,3.4,Seats available,87,high
+623DOWN,weekday,8,Jhar Khandi,Shahjahan Road,2.2,4.6,Seats available,100,high
+623DOWN,weekday,9,R K Puram Sec-3,Mohammed Pur,1.5,3.4,Seats available,261,high
+623DOWN,weekday,10,Pt College Kotla,Bharti Nagar,1.6,3.4,Seats available,194,high
+623DOWN,weekday,11,Defence Colony,Jhar Khandi,1.0,1.8,Seats available,153,high
+623DOWN,weekday,12,Sewa Nagar Flyover,Bhikaji Cama Place,0.7,1.2,Seats available,152,high
+623DOWN,weekday,13,Vasant Lok,F-Block Vasant Vihar,1.0,2.3,Seats available,141,high
+623DOWN,weekday,14,Rainy Well,Delhi Sect.,1.0,1.2,Seats available,113,high
+623DOWN,weekday,15,Kotah House,Nelson Mandela Marg X-Ing,0.9,1.2,Seats available,91,high
+623DOWN,weekday,16,Dayal Singh College,Karkardooma Crossing,1.1,2.3,Seats available,99,high
+623DOWN,weekday,17,Arjun Nagar,Ito-Agcr,1.1,2.3,Seats available,156,high
+623DOWN,weekday,18,Bhikaji Cama Place,Kotah House,0.9,2.3,Seats available,286,high
+623DOWN,weekday,19,South Ext Kotla Petrol Pump,Aiims,0.8,1.2,Seats available,245,high
+623DOWN,weekday,20,Sewa Nagar Flyover,Bhikaji Cama Place,0.9,1.2,Seats available,158,high
+623DOWN,weekday,21,F-Block Vasant Vihar,Pt College Kotla,1.0,2.1,Seats available,67,high
+623DOWN,weekday,22,Shopping Mall Hill Area,Verma Farm,1.6,2.3,Seats available,33,high
+623DOWN,weekday,23,Indian Air Lines Colony Vasant Vihar,R K Puram Sec-2,1.9,3.4,Seats available,21,high
+623DOWN,weekend,0,Shakarpur Xing,Swashthya Vihar,1.0,1.2,Seats available,11,medium
+623DOWN,weekend,1,Jagat Puri A Block,Nirman Vihar,0.0,0.0,Seats available,1,low
+623DOWN,weekend,2,Nelson Mandela Marg,Nangal Dewat,0.0,0.0,Seats available,1,low
+623DOWN,weekend,3,Nelson Mandela Marg,Nangal Dewat,0.0,0.0,Seats available,1,low
+623DOWN,weekend,4,Nelson Mandela Marg,Nangal Dewat,0.0,0.0,Seats available,5,low
+623DOWN,weekend,5,Shakarpur Xing,Swashthya Vihar,3.4,3.4,Seats available,1,low
+623DOWN,weekend,6,Jagat Puri A Block,Nirman Vihar,1.7,2.3,Seats available,6,low
+623DOWN,weekend,7,Bharti Nagar,Narouji Nagar,1.4,2.3,Seats available,31,high
+623DOWN,weekend,8,Indian Air Lines Colony Vasant Vihar,R K Puram Sec-2,1.5,2.3,Seats available,29,high
+623DOWN,weekend,9,F-Block Vasant Vihar,Pt College Kotla,1.1,2.3,Seats available,82,high
+623DOWN,weekend,10,Rainy Well,Delhi Sect.,1.2,2.3,Seats available,73,high
+623DOWN,weekend,11,Pt College Kotla,Bharti Nagar,0.8,1.2,Seats available,48,high
+623DOWN,weekend,12,Poorvi Marg,Vasant Lok,0.8,2.3,Seats available,54,high
+623DOWN,weekend,13,Sewa Nagar Flyover,Bhikaji Cama Place,1.2,2.3,Seats available,58,high
+623DOWN,weekend,14,Kotah House,Nelson Mandela Marg X-Ing,1.2,2.3,Seats available,29,high
+623DOWN,weekend,15,South Ext Kotla Petrol Pump,Aiims,0.7,1.2,Seats available,30,high
+623DOWN,weekend,16,Arjun Nagar,Ito-Agcr,0.7,1.2,Seats available,36,high
+623DOWN,weekend,17,Hans Apartment,Jawahar Lal Nehru Stadium,0.7,1.2,Seats available,56,high
+623DOWN,weekend,18,Nelson Mandela Marg X-Ing,Indian Air Lines Colony Vasant Vihar,0.8,1.2,Seats available,86,high
+623DOWN,weekend,19,Verma Farm,R K Puram Sec-1,0.6,1.2,Seats available,69,high
+623DOWN,weekend,20,Ito-Agcr,New Rajdhani Enclave,0.8,1.2,Seats available,72,high
+623DOWN,weekend,21,Narouji Nagar,Sewa Nagar Flyover,0.9,1.2,Seats available,32,high
+623DOWN,weekend,22,Power House,Poorvi Marg,1.4,2.5,Seats available,25,high
+623DOWN,weekend,23,Pragati Vihar,Rainy Well,2.6,3.9,Seats available,9,medium
+623UP,weekday,0,Africa Avenue,Netaji Nagar / Bhikaji Cama Place,1.2,1.2,Seats available,1,low
+623UP,weekday,1,Kathuria Public School (Sai Darbar Mandir),Hill Area /Mall / Paschimabad,0.0,0.0,Seats available,1,low
+623UP,weekday,2,Shahdara Terminal,Shahdara (Shyam Lal College),0.0,0.0,Seats available,1,low
+623UP,weekday,3,Shahdara Terminal,Shahdara (Shyam Lal College),0.0,0.0,Seats available,8,medium
+623UP,weekday,4,Laxmi Nagar (Vikas Marg) / Laxmi Nagar Metro Station,Bihari Colony/Kanti Nagar,0.5,1.2,Seats available,40,high
+623UP,weekday,5,Shakarpur (Vikas Marg),Sujan Singh Park,1.4,2.3,Seats available,122,high
+623UP,weekday,6,Aiims,Cpwd Colony Vasant Vihar,1.4,2.3,Seats available,114,high
+623UP,weekday,7,Nirman Vihar,Shajahan Road Upsc,1.0,1.2,Seats available,176,high
+623UP,weekday,8,Nirman Vihar,Shajahan Road Upsc,1.2,1.2,Seats available,197,high
+623UP,weekday,9,Cpwd Colony Vasant Vihar,Humayun Road / Khan Market,1.7,2.3,Seats available,236,high
+623UP,weekday,10,Shakarpur (Vikas Marg),Sujan Singh Park,1.3,2.3,Seats available,214,high
+623UP,weekday,11,Cpwd Colony Vasant Vihar,Humayun Road / Khan Market,1.2,1.2,Seats available,219,high
+623UP,weekday,12,New Rajdhani Enclave / Preet Vihar Metro Station,R K Puram Nab,0.9,1.2,Seats available,127,high
+623UP,weekday,13,Power House,Aiims,0.9,1.2,Seats available,78,high
+623UP,weekday,14,Mohammadpur Village,Nauroji Nagar,1.0,1.2,Seats available,52,high
+623UP,weekday,15,South Extension 2,Africa Avenue,1.0,1.2,Seats available,179,high
+623UP,weekday,16,Aiims,Cpwd Colony Vasant Vihar,1.2,2.3,Seats available,205,high
+623UP,weekday,17,Mohammadpur Village,Nauroji Nagar,1.4,2.3,Seats available,194,high
+623UP,weekday,18,Nauroji Nagar,Vasant Vihar F Block Poorvi Marg,1.6,2.3,Seats available,222,high
+623UP,weekday,19,Sewa Nagar Flyover,Vasant Vihar Depot / Poorvi Marg Rk Puram Sec 5,1.3,2.3,Seats available,190,high
+623UP,weekday,20,South Extension 2,Africa Avenue,1.7,2.8,Seats available,79,high
+623UP,weekday,21,Shajahan Road Upsc,Sj Hospital Ring Road,2.7,3.4,Seats available,85,high
+623UP,weekday,22,Rk Khanna Tennis Stadium,Sewa Nagar Flyover,1.5,2.3,Seats available,50,high
+623UP,weekday,23,Gagan Vihar,Ito Agcr / Ito,1.7,2.1,Seats available,4,low
+623UP,weekend,0,Cpwd Colony Vasant Vihar,Humayun Road / Khan Market,1.2,1.2,Seats available,1,low
+623UP,weekend,1,Varma Farm,Modern School Vasant Vihar F Block,0.0,0.0,Seats available,1,low
+623UP,weekend,3,Shahdara Terminal,Shahdara (Shyam Lal College),0.0,0.0,Seats available,4,low
+623UP,weekend,4,Laxmi Nagar (Vikas Marg) / Laxmi Nagar Metro Station,Bihari Colony/Kanti Nagar,0.4,1.2,Seats available,16,medium
+623UP,weekend,5,Delhi Secretariat,East Azad Nagar,1.5,2.1,Seats available,37,high
+623UP,weekend,6,Rk Puram Sec 4,Kathuria Public School (Sai Darbar Mandir),1.8,2.1,Seats available,7,low
+623UP,weekend,7,Rk Puram Sec 4,Kathuria Public School (Sai Darbar Mandir),1.1,1.2,Seats available,48,high
+623UP,weekend,8,South Extension 2,Africa Avenue,0.9,1.2,Seats available,54,high
+623UP,weekend,9,Rk Khanna Tennis Stadium,Sewa Nagar Flyover,1.0,2.3,Seats available,59,high
+623UP,weekend,10,Delhi Secretariat,East Azad Nagar,1.1,1.8,Seats available,73,high
+623UP,weekend,11,Cpwd Colony Vasant Vihar,Humayun Road / Khan Market,1.1,1.2,Seats available,73,high
+623UP,weekend,12,Ito Agcr / Ito,Kota House,1.0,1.2,Seats available,29,high
+623UP,weekend,13,R K Puram Sec2,Rk Khanna Tennis Stadium,1.0,2.1,Seats available,27,high
+623UP,weekend,14,South Extension 2,Africa Avenue,1.0,1.2,Seats available,44,high
+623UP,weekend,15,Pragati Vihar,R K Puram Sec2,1.2,1.6,Seats available,54,high
+623UP,weekend,16,Power House,Aiims,1.4,2.3,Seats available,52,high
+623UP,weekend,17,Sj Hospital Ring Road,Mohammadpur Village,1.3,2.3,Seats available,62,high
+623UP,weekend,18,Vasant Vihar F Block Poorvi Marg,Shoping Complex (Nelson Mandela Marg) / Ambience Mall,1.3,2.3,Seats available,53,high
+623UP,weekend,19,Nauroji Nagar,Vasant Vihar F Block Poorvi Marg,1.3,2.3,Seats available,55,high
+623UP,weekend,20,R K Puram Sec2,Rk Khanna Tennis Stadium,1.4,2.3,Seats available,34,high
+623UP,weekend,21,Sj Hospital Ring Road,Mohammadpur Village,1.5,2.3,Seats available,48,high
+623UP,weekend,22,Vasant Vihar Depot / Poorvi Marg Rk Puram Sec 5,Vasant Vihar Metro Station,1.3,2.3,Seats available,24,high
+623UP,weekend,23,Ito Agcr / Ito,Kota House,0.8,1.2,Seats available,3,low
+717ADOWN,weekday,0,Vasant Kunj Sec A Pkt B/C,Andheria Mor / Chhattar Pur Metro Station,2.3,2.3,Seats available,1,low
+717ADOWN,weekday,1,Badarpur Jaitpur Crossing,Pul Pehladpur (Badarpur),0.0,0.0,Seats available,1,low
+717ADOWN,weekday,4,Kapashera Border,Kapashera Crossing,0.0,0.0,Seats available,24,high
+717ADOWN,weekday,5,Kathuria Public School/Vasant Kunj D7,Masood Pur Dairy,2.6,4.6,Seats available,99,high
+717ADOWN,weekday,6,Dipsar College Of Pharmacy / Ambedkar Nagar (T.),Khanpur Extension / Devali Road Xing,2.2,3.4,Seats available,99,high
+717ADOWN,weekday,7,Verma Farm,Kathuria Public School/Vasant Kunj D7,2.2,4.6,Seats available,245,high
+717ADOWN,weekday,8,Shiv Murti 2 (Nh8) / Dwarka Mor,Verma Farm,3.1,5.8,Seats available,280,high
+717ADOWN,weekday,9,Kathuria Public School/Vasant Kunj D7,Masood Pur Dairy,2.9,5.8,Seats available,357,high
+717ADOWN,weekday,10,Vasant Kunj Bus Stand / Vasant Kunj Sec B-1,Kishan Garh,1.7,2.3,Seats available,233,high
+717ADOWN,weekday,11,Vasant Kunj Secd/34,Vasant Kunj Sec-A / Lbs,1.1,1.6,Seats available,199,high
+717ADOWN,weekday,12,Verma Farm,Kathuria Public School/Vasant Kunj D7,1.4,2.3,Seats available,160,high
+717ADOWN,weekday,13,Samalkha Crossing,Rang Puri Pahari,1.7,3.4,Seats available,134,high
+717ADOWN,weekday,14,Vasant Kunj Secd/34,Vasant Kunj Sec-A / Lbs,1.5,2.3,Seats available,127,high
+717ADOWN,weekday,15,Saket Metro Station,Lado Sarai Crossing,1.5,2.3,Seats available,81,high
+717ADOWN,weekday,16,Masood Pur Dairy,Masood Pur Village,1.9,3.4,Seats available,137,high
+717ADOWN,weekday,17,Ambedkar Nagar Depot,Ambedkar Nagar Terminal,1.9,3.4,Seats available,151,high
+717ADOWN,weekday,18,Masood Pur Village,Qutub Minar Metro Sation,2.5,4.6,Seats available,294,high
+717ADOWN,weekday,19,Saket Metro Station,Lado Sarai Crossing,2.6,4.6,Seats available,345,high
+717ADOWN,weekday,20,Saket Metro Station,Lado Sarai Crossing,2.8,5.1,Seats available,289,high
+717ADOWN,weekday,21,Asian Market,Ambedkar Nagar Depot,2.9,5.8,Seats available,275,high
+717ADOWN,weekday,22,Saket Metro Station,Lado Sarai Crossing,2.9,4.6,Seats available,164,high
+717ADOWN,weekday,23,Ambedkar Nagar Terminal,Prem Nagar,2.4,3.4,Seats available,61,high
+717ADOWN,weekend,0,Lado Sarai Crossing,Lado Sarai Firni Road (T),1.7,2.1,Seats available,2,low
+717ADOWN,weekend,4,Kapashera Border,Kapashera Crossing,0.0,0.0,Seats available,7,low
+717ADOWN,weekend,5,Samalkha Crossing,Rang Puri Pahari,3.0,5.8,Seats available,34,high
+717ADOWN,weekend,6,Dipsar College Of Pharmacy / Ambedkar Nagar (T.),Khanpur Extension / Devali Road Xing,2.7,4.6,Seats available,32,high
+717ADOWN,weekend,7,Vasant Kunj Sec-A / Lbs,Andheria Bagh More,1.9,3.4,Seats available,103,high
+717ADOWN,weekend,8,Samalkha Crossing,Rang Puri Pahari,2.4,4.6,Seats available,108,high
+717ADOWN,weekend,9,Masood Pur Dairy,Masood Pur Village,2.7,5.8,Seats available,141,high
+717ADOWN,weekend,10,Hamdard Nagar / Sangam Vihar,Badarpur Jaitpur Crossing,1.5,2.3,Seats available,146,high
+717ADOWN,weekend,11,Samalkha Crossing,Rang Puri Pahari,1.0,2.3,Seats available,69,high
+717ADOWN,weekend,12,Shiv Murti 2 (Nh8) / Dwarka Mor,Verma Farm,1.8,3.4,Seats available,75,high
+717ADOWN,weekend,13,Kathuria Public School/Vasant Kunj D7,Masood Pur Dairy,1.5,2.3,Seats available,72,high
+717ADOWN,weekend,14,Samalkha Village,Samalkha Crossing,1.6,3.4,Seats available,30,high
+717ADOWN,weekend,15,Saket Crossing,Asian Market,2.5,4.8,Seats available,30,high
+717ADOWN,weekend,16,Vasant Kunj Sec A Pkt B/C,Andheria Mor / Chhattar Pur Metro Station,1.8,2.3,Seats available,51,high
+717ADOWN,weekend,17,Saket Metro Station,Lado Sarai Crossing,1.9,3.4,Seats available,65,high
+717ADOWN,weekend,18,Kathuria Public School/Vasant Kunj D7,Masood Pur Dairy,2.4,3.4,Seats available,120,high
+717ADOWN,weekend,19,Qutub Minar Metro Sation,Vasant Kunj Bus Stand / Vasant Kunj Sec B-1,2.0,3.4,Seats available,117,high
+717ADOWN,weekend,20,Saket Metro Station,Lado Sarai Crossing,2.3,4.6,Seats available,97,high
+717ADOWN,weekend,21,Samalkha Village,Samalkha Crossing,2.4,5.8,Seats available,61,high
+717ADOWN,weekend,22,Saket Metro Station,Lado Sarai Crossing,3.1,4.6,Seats available,53,high
+717ADOWN,weekend,23,Shiv Murti 2 (Nh8) / Dwarka Mor,Verma Farm,2.6,4.4,Seats available,4,low
+717AUP,weekday,0,Samlakha Xing,Isic Hospital,0.4,0.0,Seats available,12,medium
+717AUP,weekday,3,Badarpur Border (T),Pul Prehladpur ( Badarpur),0.0,0.0,Seats available,15,medium
+717AUP,weekday,4,Dhola Peer,Kaya Maya Hospital,0.8,2.3,Seats available,26,high
+717AUP,weekday,5,Mahipal Pur Village / Sec E Pkt 2 Vasant Kunj,Kapashera Border,1.5,1.2,Seats available,11,medium
+717AUP,weekday,6,Air Force Station,Dhola Peer,2.5,4.6,Seats available,173,high
+717AUP,weekday,7,Rang Puri (Nh8),Kapashera Crossing,3.2,5.1,Seats available,169,high
+717AUP,weekday,8,Khanpur Extension / Devli Road Xing / Dakshin Puri G-Block,Tuglakabad Fort,3.6,8.0,Seats available,325,high
+717AUP,weekday,9,Kaya Maya Hospital,Saket Metro Sation / Said-Ul-Ajaib,4.0,9.2,Seats available,292,high
+717AUP,weekday,10,Kaya Maya Hospital,Saket Metro Sation / Said-Ul-Ajaib,2.4,4.6,Seats available,309,high
+717AUP,weekday,11,Dhola Peer,Kaya Maya Hospital,1.7,3.4,Seats available,340,high
+717AUP,weekday,12,Khanpur Extension / Devli Road Xing / Dakshin Puri G-Block,Tuglakabad Fort,2.2,3.4,Seats available,188,high
+717AUP,weekday,13,Ambedkar Nagar Terminal / Dipsar,Air Force Station,2.2,3.4,Seats available,107,high
+717AUP,weekday,14,Kishan Garh & Npd / Vasant Kunj Car Market,Rang Puri Pahari,1.8,3.0,Seats available,103,high
+717AUP,weekday,15,Rang Puri Pahari,Masood Pur Dairy / Santushti Appartement,1.5,2.3,Seats available,142,high
+717AUP,weekday,16,Rang Puri (Nh8),Kapashera Crossing,1.4,2.3,Seats available,171,high
+717AUP,weekday,17,Rang Puri (Nh8),Kapashera Crossing,1.5,2.3,Seats available,265,high
+717AUP,weekday,18,Rang Puri (Nh8),Kapashera Crossing,1.8,3.4,Seats available,310,high
+717AUP,weekday,19,Rang Puri (Nh8),Kapashera Crossing,1.8,3.4,Seats available,234,high
+717AUP,weekday,20,Rang Puri (Nh8),Kapashera Crossing,1.9,3.4,Seats available,193,high
+717AUP,weekday,21,Rang Puri (Nh8),Kapashera Crossing,1.9,3.4,Seats available,104,high
+717AUP,weekday,22,Surajkund Crossing,Hamdard Nagar / Sangam Vihar,1.7,2.5,Seats available,30,high
+717AUP,weekday,23,Tughalqabad Village,Ambedkar Nagar Depot,3.4,3.4,Seats available,1,low
+717AUP,weekend,0,Kishan Garh & Npd / Vasant Kunj Car Market,Rang Puri Pahari,1.4,2.5,Seats available,5,low
+717AUP,weekend,3,Badarpur Border (T),Pul Prehladpur ( Badarpur),0.0,0.0,Seats available,7,low
+717AUP,weekend,4,Lado Sarai Firni Road (T),Said Ul Zeb,1.2,2.3,Seats available,7,low
+717AUP,weekend,5,Rang Puri (Nh8),Kapashera Crossing,2.1,3.4,Seats available,14,medium
+717AUP,weekend,6,Saket Crossing,Vasant Kunj C8 (Vasant Kunj Road),2.0,3.4,Seats available,54,high
+717AUP,weekend,7,Rang Puri (Nh8),Kapashera Crossing,2.6,3.4,Seats available,78,high
+717AUP,weekend,8,Khanpur Extension / Devli Road Xing / Dakshin Puri G-Block,Tuglakabad Fort,3.2,5.8,Seats available,104,high
+717AUP,weekend,9,Kaya Maya Hospital,Saket Metro Sation / Said-Ul-Ajaib,3.3,6.9,Seats available,108,high
+717AUP,weekend,10,Khanpur Extension / Devli Road Xing / Dakshin Puri G-Block,Tuglakabad Fort,2.5,4.6,Seats available,102,high
+717AUP,weekend,11,Kathuria Public School (Sai Darbar Mandir),Vasant Kunj Bus Stand / Vasant Kunj Sec- B -1,2.0,3.4,Seats available,108,high
+717AUP,weekend,12,Ambedkar Nagar Terminal / Dipsar,Air Force Station,2.7,5.8,Seats available,88,high
+717AUP,weekend,13,Air Force Station,Dhola Peer,2.7,4.6,Seats available,46,high
+717AUP,weekend,14,Kathuria Public School (Sai Darbar Mandir),Vasant Kunj Bus Stand / Vasant Kunj Sec- B -1,1.8,2.3,Seats available,47,high
+717AUP,weekend,15,Kishan Garh & Npd / Vasant Kunj Car Market,Rang Puri Pahari,1.8,3.4,Seats available,67,high
+717AUP,weekend,16,Rang Puri (Nh8),Kapashera Crossing,1.9,2.8,Seats available,74,high
+717AUP,weekend,17,Rang Puri (Nh8),Kapashera Crossing,1.1,2.3,Seats available,116,high
+717AUP,weekend,18,Rang Puri (Nh8),Kapashera Crossing,1.7,2.3,Seats available,105,high
+717AUP,weekend,19,Andheria Bagh More,Kathuria Public School (Sai Darbar Mandir),1.4,2.3,Seats available,96,high
+717AUP,weekend,20,Verma Farm,Masood Pur Village,1.9,3.4,Seats available,59,high
+717AUP,weekend,21,Andheria Bagh More,Kathuria Public School (Sai Darbar Mandir),1.5,3.4,Seats available,54,high
+717AUP,weekend,22,Rang Puri (Nh8),Kapashera Crossing,2.1,3.4,Seats available,39,high
+717AUP,weekend,23,Rang Puri Pahari,Masood Pur Dairy / Santushti Appartement,1.6,1.8,Seats available,18,medium
+717BDOWN,weekday,0,Mb Road / Okhla More,Ambedkar Nagar Depot,2.0,3.4,Seats available,21,high
+717BDOWN,weekday,1,Batra Hospital / Satya Narayan Mandir,Vayusenabad (Tigri),1.2,1.2,Seats available,1,low
+717BDOWN,weekday,4,Mahipal Pur Village,Radission Hotel,0.0,0.0,Seats available,1,low
+717BDOWN,weekday,5,Cargo / Express Terminal Gate 6,Cantoor Hotel / New Custom House,1.6,3.4,Seats available,20,high
+717BDOWN,weekday,6,Igi Airport Terminal 2 (Air India Office),Isic Hospital,2.6,4.6,Seats available,104,high
+717BDOWN,weekday,7,Kathuria Public School/Vasant Kunj D7,Vasant Kunj Sec-A / Lbs,2.7,4.6,Seats available,171,high
+717BDOWN,weekday,8,Dhaula Peer Lado Sarai,Kishan Garh,2.7,4.6,Seats available,166,high
+717BDOWN,weekday,9,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,2.5,4.6,Seats available,176,high
+717BDOWN,weekday,10,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,1.7,3.4,Seats available,104,high
+717BDOWN,weekday,11,Vasant Kunj Sec A Pkt B/C,Andheria Bagh More,1.1,1.2,Seats available,128,high
+717BDOWN,weekday,12,Masood Pur Village,Vasant Kunj Secd/34,1.3,2.3,Seats available,124,high
+717BDOWN,weekday,13,Isic Hospital,Masood Pur Village,1.1,2.3,Seats available,57,high
+717BDOWN,weekday,14,Verma Farm,Maidan Garhi Crossing (Sdm Court),2.0,3.4,Seats available,56,high
+717BDOWN,weekday,15,Vasant Kunj C8 (Vasant Kunj Road),Kathuria Public School/Vasant Kunj D7,2.1,4.6,Seats available,73,high
+717BDOWN,weekday,16,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,2.2,3.4,Seats available,92,high
+717BDOWN,weekday,17,Dhaula Peer Lado Sarai,Kishan Garh,2.6,4.6,Seats available,158,high
+717BDOWN,weekday,18,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,3.0,5.8,Seats available,230,high
+717BDOWN,weekday,19,Air Force Station,Dipsar College Of Pharmacy / Ambedkar Nagar (T.),3.5,6.9,Seats available,258,high
+717BDOWN,weekday,20,Said Ul Zeb Village,Prem Nagar,3.3,5.8,Seats available,227,high
+717BDOWN,weekday,21,Said Ul Zeb Village,Prem Nagar,3.0,4.6,Seats available,150,high
+717BDOWN,weekday,22,Qutub Minar Metro Sation,Dhaula Peer Lado Sarai,2.8,4.8,Seats available,55,high
+717BDOWN,weekday,23,Prem Nagar,Lado Sarai Crossing,4.3,6.9,Seats available,39,high
+717BDOWN,weekend,0,Batra Hospital / Satya Narayan Mandir,Vayusenabad (Tigri),2.4,4.8,Seats available,8,medium
+717BDOWN,weekend,1,Tughlaqabad Village,Hamdard Nagar / Sangam Vihar,0.0,0.0,Seats available,1,low
+717BDOWN,weekend,5,Isic Hospital,Masood Pur Village,2.7,4.1,Seats available,3,low
+717BDOWN,weekend,6,Ambedkar Nagar Terminal,Mb Road / Okhla More,3.1,3.4,Seats available,3,low
+717BDOWN,weekend,7,Vasant Kunj Secd/34,Vasant Kunj Bus Stand / Vasant Kunj Sec B-1,2.2,4.4,Seats available,77,high
+717BDOWN,weekend,8,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,2.2,3.4,Seats available,73,high
+717BDOWN,weekend,9,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,2.3,3.4,Seats available,51,high
+717BDOWN,weekend,10,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,1.5,2.3,Seats available,58,high
+717BDOWN,weekend,11,Qutub Minar Metro Sation,Dhaula Peer Lado Sarai,1.3,2.3,Seats available,54,high
+717BDOWN,weekend,12,Radission Hotel,Air Traffic Control Office,1.4,2.3,Seats available,50,high
+717BDOWN,weekend,13,Vasant Kunj Bus Stand / Vasant Kunj Sec B-1,Vasant Kunj C8 (Vasant Kunj Road),1.3,2.3,Seats available,34,high
+717BDOWN,weekend,14,Said Ul Zeb Village,Prem Nagar,1.7,2.3,Seats available,27,high
+717BDOWN,weekend,15,Dhaula Peer Lado Sarai,Kishan Garh,2.2,3.7,Seats available,25,high
+717BDOWN,weekend,16,Kathuria Public School/Vasant Kunj D7,Vasant Kunj Sec-A / Lbs,1.8,3.9,Seats available,49,high
+717BDOWN,weekend,17,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,2.0,3.4,Seats available,96,high
+717BDOWN,weekend,18,Qutub Minar Metro Sation,Dhaula Peer Lado Sarai,2.6,4.6,Seats available,74,high
+717BDOWN,weekend,19,Ahinsa Sthal,Lado Sarai,2.5,4.6,Seats available,92,high
+717BDOWN,weekend,20,Air Force Station,Dipsar College Of Pharmacy / Ambedkar Nagar (T.),2.9,4.6,Seats available,84,high
+717BDOWN,weekend,21,Ahinsa Sthal,Lado Sarai,2.7,3.4,Seats available,46,high
+717BDOWN,weekend,22,Maidan Garhi Crossing (Sdm Court),Qutub Minar Metro Sation,3.1,4.6,Seats available,33,high
+717BDOWN,weekend,23,Said Ul Zeb Village,Prem Nagar,3.3,5.8,Seats available,20,high
+729DOWN,weekday,0,Regal,Vivekanand Marg / Minto Road,1.4,1.6,Seats available,5,low
+729DOWN,weekday,3,Officer Enclave S.P Marg / Sardar Patel Marg,Shiv Murti (Nh8),1.2,1.2,Seats available,1,low
+729DOWN,weekday,4,Shiv Murti (Nh8),Uppal Hotel,1.2,1.2,Seats available,3,low
+729DOWN,weekday,5,Aps Colony/ Jharera Gaon,Bapu Dham,3.4,4.6,Seats available,27,high
+729DOWN,weekday,6,Shankar Vihar Nh8 / Shankar Vihar,Officer Enclave S.P Marg / Sardar Patel Marg,2.3,3.4,Seats available,214,high
+729DOWN,weekday,7,Samalkha Crossing,Rang Puri (Nh8),2.7,4.6,Seats available,279,high
+729DOWN,weekday,8,Samalkha Crossing,Rang Puri (Nh8),3.7,6.9,Seats available,266,high
+729DOWN,weekday,9,Samalkha Village,Mahipal Pur (Nh8),3.9,6.9,Seats available,181,high
+729DOWN,weekday,10,Air Force Hq / Subroto Park,Dhaula Kuan,1.8,3.4,Seats available,224,high
+729DOWN,weekday,11,Samalkha Crossing,Rang Puri (Nh8),1.5,2.3,Seats available,238,high
+729DOWN,weekday,12,Samalkha Village,Mahipal Pur (Nh8),1.5,2.3,Seats available,119,high
+729DOWN,weekday,13,Samalkha Crossing,Rang Puri (Nh8),1.9,3.4,Seats available,81,high
+729DOWN,weekday,14,Dhaula Kuan,Shankar Vihar Nh8 / Shankar Vihar,1.3,2.3,Seats available,198,high
+729DOWN,weekday,15,Dhaula Kuan,Shankar Vihar Nh8 / Shankar Vihar,1.3,2.3,Seats available,160,high
+729DOWN,weekday,16,Palika Kutumb,Railway Colony (Sardar Patel Marg),1.2,2.3,Seats available,168,high
+729DOWN,weekday,17,Samalkha Crossing,Rang Puri (Nh8),1.1,2.3,Seats available,208,high
+729DOWN,weekday,18,Samalkha Village,Mahipal Pur (Nh8),1.8,3.4,Seats available,160,high
+729DOWN,weekday,19,Samalkha Village,Mahipal Pur (Nh8),2.2,3.4,Seats available,140,high
+729DOWN,weekday,20,Samalkha Village,Mahipal Pur (Nh8),1.5,2.3,Seats available,94,high
+729DOWN,weekday,21,Samalkha Village,Mahipal Pur (Nh8),1.7,3.4,Seats available,94,high
+729DOWN,weekday,22,Samalkha Village,Mahipal Pur (Nh8),1.5,2.3,Seats available,24,high
+729DOWN,weekday,23,Shankar Vihar Nh8 / Shankar Vihar,Officer Enclave S.P Marg / Sardar Patel Marg,1.2,1.2,Seats available,7,low
+729DOWN,weekend,0,Vivekanand Marg / Minto Road,Gurudwara Bangla Sahib,0.4,0.7,Seats available,3,low
+729DOWN,weekend,4,Kapashera Crossing,Samalkha Village,1.2,1.2,Seats available,1,low
+729DOWN,weekend,5,Aps Colony/ Jharera Gaon,Bapu Dham,3.7,5.8,Seats available,9,medium
+729DOWN,weekend,6,Dr. Rml Hospital,Regal / Palika Kendra,2.8,3.9,Seats available,9,medium
+729DOWN,weekend,7,Samalkha Crossing,Rang Puri (Nh8),2.4,4.6,Seats available,90,high
+729DOWN,weekend,8,Samalkha Crossing,Rang Puri (Nh8),3.6,6.9,Seats available,95,high
+729DOWN,weekend,9,Samalkha Village,Mahipal Pur (Nh8),3.1,4.6,Seats available,66,high
+729DOWN,weekend,10,Samalkha Crossing,Rang Puri (Nh8),2.1,3.4,Seats available,91,high
+729DOWN,weekend,11,Air Force Hq / Subroto Park,Dhaula Kuan,2.5,4.6,Seats available,81,high
+729DOWN,weekend,12,Ndpo,Bhartiya Sadhu Samaj / Malcha Marg,2.0,3.4,Seats available,61,high
+729DOWN,weekend,13,Air Force Hq / Subroto Park,Dhaula Kuan,2.1,3.0,Seats available,28,high
+729DOWN,weekend,14,Rr Hospital,Talkatora Stadium Garden,2.2,3.4,Seats available,50,high
+729DOWN,weekend,15,Uppal Hotel,Jln Marg / Civic Centre,2.0,3.4,Seats available,65,high
+729DOWN,weekend,16,Gurudwara Bangla Sahib,Dr. Rml Hospital,1.9,3.4,Seats available,64,high
+729DOWN,weekend,17,Shankar Vihar Nh8 / Shankar Vihar,Officer Enclave S.P Marg / Sardar Patel Marg,1.3,2.3,Seats available,60,high
+729DOWN,weekend,18,Samalkha Village,Mahipal Pur (Nh8),1.7,3.4,Seats available,55,high
+729DOWN,weekend,19,Samalkha Crossing,Rang Puri (Nh8),1.9,2.5,Seats available,55,high
+729DOWN,weekend,20,Samalkha Crossing,Rang Puri (Nh8),1.7,2.3,Seats available,44,high
+729DOWN,weekend,21,Samalkha Crossing,Rang Puri (Nh8),2.0,3.4,Seats available,36,high
+729DOWN,weekend,22,Officer Enclave S.P Marg / Sardar Patel Marg,Shiv Murti (Nh8),1.2,1.6,Seats available,10,medium
+729DOWN,weekend,23,Rr Hospital,Talkatora Stadium Garden,1.2,1.2,Seats available,2,low
+729UP,weekday,0,Taj Palace Hotel,Gurudwara Bangla Sahib,4.6,4.6,Seats available,1,low
+729UP,weekday,1,Red Fort,Ggs University Isbt Kashmere Gate,0.0,0.0,Seats available,1,low
+729UP,weekday,2,Mahipal Pur Village / Mahipal Pur Crossing Nh8,Kapashera Border,2.3,2.3,Seats available,1,low
+729UP,weekday,3,Red Fort,Ggs University Isbt Kashmere Gate,0.0,0.0,Seats available,1,low
+729UP,weekday,4,Taj Palace Hotel,Gurudwara Bangla Sahib,1.2,1.2,Seats available,1,low
+729UP,weekday,5,Mahipal Pur Village / Mahipal Pur Crossing Nh8,Kapashera Border,2.9,3.2,Seats available,2,low
+729UP,weekday,6,Rang Puri (Nh8),Samalkha Village,1.5,2.3,Seats available,30,high
+729UP,weekday,7,Rang Puri (Nh8),Samalkha Village,2.4,4.6,Seats available,116,high
+729UP,weekday,8,Mahipal Pur Village / Mahipal Pur Crossing Nh8,Kapashera Border,2.0,3.4,Seats available,252,high
+729UP,weekday,9,Mahipal Pur Village / Mahipal Pur Crossing Nh8,Kapashera Border,1.8,3.4,Seats available,391,high
+729UP,weekday,10,Samalkha Village,Kapashera Crossing,1.2,2.3,Seats available,356,high
+729UP,weekday,11,Samalkha Village,Kapashera Crossing,1.0,1.2,Seats available,224,high
+729UP,weekday,12,Rang Puri (Nh8),Samalkha Village,1.1,2.3,Seats available,201,high
+729UP,weekday,13,Rang Puri (Nh8),Samalkha Village,1.3,2.3,Seats available,173,high
+729UP,weekday,14,Rang Puri (Nh8),Samalkha Village,1.4,2.3,Seats available,169,high
+729UP,weekday,15,Dhaula Kuan,Kapashera Village,1.4,2.3,Seats available,134,high
+729UP,weekday,16,Dhaula Kuan,Kapashera Village,2.0,3.4,Seats available,173,high
+729UP,weekday,17,Dhaula Kuan,Kapashera Village,2.1,3.4,Seats available,185,high
+729UP,weekday,18,Rang Puri (Nh8),Samalkha Village,2.3,3.4,Seats available,228,high
+729UP,weekday,19,Dhaula Kuan,Kapashera Village,2.0,3.4,Seats available,323,high
+729UP,weekday,20,Dhaula Kuan,Kapashera Village,2.2,3.4,Seats available,324,high
+729UP,weekday,21,Dhaula Kuan,Kapashera Village,2.3,3.4,Seats available,197,high
+729UP,weekday,22,Rang Puri (Nh8),Samalkha Village,1.7,2.3,Seats available,166,high
+729UP,weekday,23,Delhi Gate (Jln Marg),Talkatora Road,2.3,3.0,Seats available,2,low
+729UP,weekend,0,Bhartiya Sadhu Samaj,Darya Ganj,1.2,1.2,Seats available,1,low
+729UP,weekend,1,Shankar Vihar / National Highway 8,Rajokari Crossing Nh8 / Shiv Murti,0.0,0.0,Seats available,1,low
+729UP,weekend,3,Red Fort,Ggs University Isbt Kashmere Gate,0.0,0.0,Seats available,1,low
+729UP,weekend,4,Red Fort,Ggs University Isbt Kashmere Gate,0.0,0.0,Seats available,10,medium
+729UP,weekend,5,Rang Puri (Nh8),Samalkha Village,3.4,4.8,Seats available,3,low
+729UP,weekend,6,Rang Puri (Nh8),Samalkha Village,2.3,4.1,Seats available,8,medium
+729UP,weekend,7,Mahipal Pur Village / Mahipal Pur Crossing Nh8,Kapashera Border,1.8,3.0,Seats available,33,high
+729UP,weekend,8,Mahipal Pur Village / Mahipal Pur Crossing Nh8,Kapashera Border,1.6,2.3,Seats available,74,high
+729UP,weekend,9,Samalkha Village,Kapashera Crossing,1.5,2.3,Seats available,113,high
+729UP,weekend,10,Rang Puri (Nh8),Samalkha Village,1.1,1.2,Seats available,96,high
+729UP,weekend,11,Shiv Murti,Shankar Vihar / National Highway 8,1.2,2.3,Seats available,58,high
+729UP,weekend,12,Rang Puri (Nh8),Samalkha Village,1.2,2.3,Seats available,53,high
+729UP,weekend,13,Dhaula Kuan,Kapashera Village,1.3,2.3,Seats available,91,high
+729UP,weekend,14,Kapashera Village,Rang Puri (Nh8),1.6,3.2,Seats available,67,high
+729UP,weekend,15,Rang Puri (Nh8),Samalkha Village,1.3,2.3,Seats available,51,high
+729UP,weekend,16,Rang Puri (Nh8),Samalkha Village,1.5,3.4,Seats available,80,high
+729UP,weekend,17,Rang Puri (Nh8),Samalkha Village,1.9,3.4,Seats available,70,high
+729UP,weekend,18,Rang Puri (Nh8),Samalkha Village,1.9,3.4,Seats available,87,high
+729UP,weekend,19,Rang Puri (Nh8),Samalkha Village,1.8,2.3,Seats available,112,high
+729UP,weekend,20,Dhaula Kuan,Kapashera Village,2.4,4.4,Seats available,112,high
+729UP,weekend,21,Mahipal Pur Village / Mahipal Pur Crossing Nh8,Kapashera Border,1.9,3.0,Seats available,78,high
+729UP,weekend,22,Rang Puri (Nh8),Samalkha Village,2.2,4.4,Seats available,82,high
+729UP,weekend,23,Taj Palace Hotel,Gurudwara Bangla Sahib,1.7,3.0,Seats available,18,medium
+764DOWN,weekday,0,Os Communication,Swami Nagar,1.8,2.5,Seats available,5,low
+764DOWN,weekday,1,Indian Oil Station,Arjun Path / Aps Colony,1.9,2.5,Seats available,3,low
+764DOWN,weekday,2,Nehru Place Terminal,Paras Cinema,0.0,0.0,Seats available,4,low
+764DOWN,weekday,3,Nehru Place Terminal,Paras Cinema,0.0,0.0,Seats available,2,low
+764DOWN,weekday,4,Masjid Moth,Pumposh Enclave,0.1,0.0,Seats available,22,high
+764DOWN,weekday,5,Najafgarh Terminal,Najafgarh Delhi Gate,0.9,1.2,Seats available,4,low
+764DOWN,weekday,6,Arjun Park,Crpf Jharoda,1.2,1.2,Seats available,2,low
+764DOWN,weekday,7,Swami Malai Mandir,Indian Oil Station,0.9,1.2,Seats available,114,high
+764DOWN,weekday,8,Dwarka Crossing / Maharaja Agrasen Hospital,Greater Kailash,1.1,2.3,Seats available,364,high
+764DOWN,weekday,9,Greater Kailash,Rk Puram Sec 6,1.7,3.4,Seats available,255,high
+764DOWN,weekday,10,Chirag Dilli / Chirag Delhi Metro Station,Iit Hostel,1.6,2.8,Seats available,199,high
+764DOWN,weekday,11,Dwarka Crossing / Maharaja Agrasen Hospital,Greater Kailash,1.0,1.2,Seats available,174,high
+764DOWN,weekday,12,Greater Kailash,Rk Puram Sec 6,0.7,1.2,Seats available,127,high
+764DOWN,weekday,13,Dps Matiyala (Delhi Public School ),Pts Jharoda,0.8,1.2,Seats available,132,high
+764DOWN,weekday,14,J M International School,North Paint Nursing Home / Panchsheel Park Metro Station,0.8,1.2,Seats available,123,high
+764DOWN,weekday,15,Jia Sarai,Rao Tula Ram College / Vasant Village / Shani Mandir,1.0,1.2,Seats available,204,high
+764DOWN,weekday,16,Indian Oil Station,Arjun Path / Aps Colony,0.9,1.2,Seats available,255,high
+764DOWN,weekday,17,Dps Matiyala (Delhi Public School ),Pts Jharoda,1.1,2.3,Seats available,256,high
+764DOWN,weekday,18,Kendriya Vidhyalaya / Aps School,Swami Malai Mandir,1.2,2.3,Seats available,291,high
+764DOWN,weekday,19,Swami Malai Mandir,Indian Oil Station,1.2,2.3,Seats available,246,high
+764DOWN,weekday,20,Jharoda Crossing Jharoda Road,Power House Najafgarh,1.3,2.3,Seats available,258,high
+764DOWN,weekday,21,Dwarka Sec 13 / 14,Jharoda Nala Crossing,1.3,2.3,Seats available,244,high
+764DOWN,weekday,22,Vasant Vihar / Poorvi Marg Rk Puram Sec 5,Dda Flats Munirka,1.3,2.1,Seats available,67,high
+764DOWN,weekday,23,Greater Kailash,Rk Puram Sec 6,1.1,1.2,Seats available,24,high
+764DOWN,weekend,0,Nehru Place Terminal,Paras Cinema,2.3,2.3,Seats available,1,low
+764DOWN,weekend,1,Iit Hostel,Jia Sarai,2.3,2.3,Seats available,1,low
+764DOWN,weekend,2,Nehru Place Terminal,Paras Cinema,0.0,0.0,Seats available,3,low
+764DOWN,weekend,3,Os Communication,Swami Nagar,0.0,0.0,Seats available,2,low
+764DOWN,weekend,4,Nehru Place Terminal,Paras Cinema,0.0,0.0,Seats available,7,low
+764DOWN,weekend,5,Palam Airport / Igi Airport T1,Raksha Bhawan Palam,1.9,2.5,Seats available,3,low
+764DOWN,weekend,6,Madhu Vihar,Jharoda Kalan,2.3,2.3,Seats available,1,low
+764DOWN,weekend,7,Tuda Mandi Najafgarh Road,Palam Colony Flyover,1.3,2.3,Seats available,9,medium
+764DOWN,weekend,8,Kakrola Bridge,New Anaj Mandi (Najafgarh),1.3,2.3,Seats available,47,high
+764DOWN,weekend,9,Palam More,Baba Haridass Nagar,1.4,2.3,Seats available,101,high
+764DOWN,weekend,10,Greater Kailash,Rk Puram Sec 6,1.1,1.2,Seats available,79,high
+764DOWN,weekend,11,Chirag Dilli / Chirag Delhi Metro Station,Iit Hostel,0.9,1.2,Seats available,60,high
+764DOWN,weekend,12,Rk Puram Sec 6,Chirag Dilli / Chirag Delhi Metro Station,0.9,1.2,Seats available,50,high
+764DOWN,weekend,13,Iol,Kendriya Vidhyalaya / Aps School,1.0,1.2,Seats available,41,high
+764DOWN,weekend,14,Indian Oil Station,Arjun Path / Aps Colony,1.1,1.2,Seats available,48,high
+764DOWN,weekend,15,Mangla Puri X-Ing / Dwarka Gate,Sadhna Enclave,1.0,1.6,Seats available,64,high
+764DOWN,weekend,16,Dwarka Sec 2/6,Iol,0.9,1.2,Seats available,105,high
+764DOWN,weekend,17,Indian Oil Station,Arjun Path / Aps Colony,1.4,2.3,Seats available,89,high
+764DOWN,weekend,18,Dwarka Sector 1,Kakrola Bridge,1.4,2.3,Seats available,82,high
+764DOWN,weekend,19,Jharoda Crossing Jharoda Road,Power House Najafgarh,1.1,1.2,Seats available,91,high
+764DOWN,weekend,20,Rk Puram Sec 6,Chirag Dilli / Chirag Delhi Metro Station,1.0,2.3,Seats available,87,high
+764DOWN,weekend,21,Iol,Kendriya Vidhyalaya / Aps School,1.1,1.2,Seats available,80,high
+764DOWN,weekend,22,Swami Nagar,J M International School,1.1,1.2,Seats available,27,high
+764DOWN,weekend,23,Dda Flats Munirka,Dwarka Crossing / Maharaja Agrasen Hospital,1.4,1.8,Seats available,8,medium

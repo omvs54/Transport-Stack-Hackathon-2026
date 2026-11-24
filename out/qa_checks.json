@@ -1,0 +1,54 @@
+{
+  "tickets_read": 2559899,
+  "tickets_dropped_unmatched_stop": 6,
+  "tickets_used": 128933,
+  "trips_built": 51221,
+  "uplift_for_unticketed_riders": 1.15,
+  "assumed_seats": 35,
+  "weekday_peak_vs_midday_load_ratio": 1.71,
+  "weekday_busiest_hours": [
+    9,
+    8,
+    20
+  ],
+  "weekday_vs_weekend_load_ratio": 1.07,
+  "week_to_week_stability_corr_odd_vs_even_weeks": 0.898,
+  "busiest_weekday_stretches": [
+    {
+      "route": "729UP",
+      "from_stop": "Taj Palace Hotel",
+      "to_stop": "Gurudwara Bangla Sahib",
+      "hour": 0,
+      "mean_load": 4.6
+    },
+    {
+      "route": "729UP",
+      "from_stop": "Gurudwara Bangla Sahib",
+      "to_stop": "Kendriya Terminal (Pt. Pant Marg)",
+      "hour": 0,
+      "mean_load": 4.6
+    },
+    {
+      "route": "729UP",
+      "from_stop": "Kendriya Terminal (Pt. Pant Marg)",
+      "to_stop": "Ps Parliament / Jantar Mantar",
+      "hour": 0,
+      "mean_load": 4.6
+    },
+    {
+      "route": "729UP",
+      "from_stop": "Ps Parliament / Jantar Mantar",
+      "to_stop": "Bapu Dham",
+      "hour": 0,
+      "mean_load": 4.6
+    },
+    {
+      "route": "729UP",
+      "from_stop": "Bapu Dham",
+      "to_stop": "Dr. Rml Hospital",
+      "hour": 0,
+      "mean_load": 4.6
+    }
+  ],
+  "share_of_cells_low_confidence": 0.088
+}

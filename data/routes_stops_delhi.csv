@@ -1,0 +1,673 @@
+route,seq,stop_name,lat,lon,cum_min
+717AUP,0,Badarpur Border (T),28.5,77.2,0.0
+717AUP,1,Pul Prehladpur ( Badarpur),28.505,77.205,2.5
+717AUP,2,Badarpur M B Road / Rajiv Gandhi Stadium,28.51,77.21000000000001,5.0
+717AUP,3,Surajkund Crossing,28.515,77.215,7.5
+717AUP,4,Hamdard Nagar / Sangam Vihar,28.52,77.22,10.0
+717AUP,5,Tuglaqabad Mb Road / Okhla More,28.525,77.22500000000001,12.5
+717AUP,6,Batra Hospital (Satya Narayan Mandir),28.53,77.23,15.0
+717AUP,7,Lal Kuan,28.535,77.235,17.5
+717AUP,8,Dipsar ( Institute Of Pharmacy),28.54,77.24000000000001,20.0
+717AUP,9,Vayusenabad (Tigri),28.545,77.245,22.5
+717AUP,10,Prem Nagar (Tuglqabad Road),28.55,77.25,25.0
+717AUP,11,Asian Market,28.555,77.25500000000001,27.5
+717AUP,12,Tughalqabad Village,28.56,77.26,30.0
+717AUP,13,Ambedkar Nagar Depot,28.565,77.265,32.5
+717AUP,14,Khanpur Extension / Devli Road Xing / Dakshin Puri G-Block,28.57,77.27,35.0
+717AUP,15,Tuglakabad Fort,28.575,77.275,37.5
+717AUP,16,Jain Mandir / Delhi Jal Board (Mg Road),28.58,77.28,40.0
+717AUP,17,Ambedkar Nagar Terminal / Dipsar,28.585,77.285,42.5
+717AUP,18,Air Force Station,28.59,77.29,45.0
+717AUP,19,Dhola Peer,28.595,77.295,47.5
+717AUP,20,Kaya Maya Hospital,28.6,77.3,50.0
+717AUP,21,Saket Metro Sation / Said-Ul-Ajaib,28.605,77.305,52.5
+717AUP,22,Maidan Garhi Crossing (Sdm Court),28.61,77.31,55.0
+717AUP,23,Ahinsa Sthal,28.615,77.315,57.5
+717AUP,24,Lado Sarai Firni Road (T),28.62,77.32000000000001,60.0
+717AUP,25,Said Ul Zeb,28.625,77.325,62.5
+717AUP,26,Shiv Murti -2,28.63,77.33,65.0
+717AUP,27,Vasant Kunj Sec - A (Ilbs),28.635,77.33500000000001,67.5
+717AUP,28,Lado Sarai Crossing,28.64,77.34,70.0
+717AUP,29,Saket Crossing,28.645,77.345,72.5
+717AUP,30,Vasant Kunj C8 (Vasant Kunj Road),28.65,77.35000000000001,75.0
+717AUP,31,Vasant Kunj Sec A Pkt B/C / Vasant Vihar Bpc,28.655,77.355,77.5
+717AUP,32,Vasant Kunj Secd/34 / Vasant Kunj Fortis,28.66,77.36,80.0
+717AUP,33,Andheria Bagh More,28.665,77.36500000000001,82.5
+717AUP,34,Kathuria Public School (Sai Darbar Mandir),28.67,77.37,85.0
+717AUP,35,Vasant Kunj Bus Stand / Vasant Kunj Sec- B -1,28.675,77.375,87.5
+717AUP,36,Qutub Minar Metro Sation,28.68,77.38000000000001,90.0
+717AUP,37,Kishan Garh & Npd / Vasant Kunj Car Market,28.685,77.385,92.5
+717AUP,38,Rang Puri Pahari,28.69,77.39,95.0
+717AUP,39,Masood Pur Dairy / Santushti Appartement,28.695,77.395,97.5
+717AUP,40,Verma Farm,28.7,77.4,100.0
+717AUP,41,Masood Pur Village,28.705,77.405,102.5
+717AUP,42,Samlakha Xing,28.71,77.41,105.0
+717AUP,43,Isic Hospital,28.715,77.415,107.5
+717AUP,44,Shiv Murti,28.72,77.42,110.0
+717AUP,45,Rang Puri (Nh8),28.725,77.425,112.5
+717AUP,46,Kapashera Crossing,28.73,77.43,115.0
+717AUP,47,Kapashera Village,28.735,77.435,117.5
+717AUP,48,Samalkha Village,28.74,77.44,120.0
+717AUP,49,Rajokari Xing,28.745,77.44500000000001,122.5
+717AUP,50,Mahipal Pur Village / Sec E Pkt 2 Vasant Kunj,28.75,77.45,125.0
+717AUP,51,Kapashera Border,28.755,77.455,127.5
+717ADOWN,0,Kapashera Border,28.5,77.2,0.0
+717ADOWN,1,Kapashera Crossing,28.505,77.205,2.5
+717ADOWN,2,Kapashera Village,28.51,77.21000000000001,5.0
+717ADOWN,3,Mahipal Pur Village,28.515,77.215,7.5
+717ADOWN,4,Samalkha Village,28.52,77.22,10.0
+717ADOWN,5,Samalkha Crossing,28.525,77.22500000000001,12.5
+717ADOWN,6,Rang Puri Pahari,28.53,77.23,15.0
+717ADOWN,7,Shiv Murti 2 (Nh8) / Dwarka Mor,28.535,77.235,17.5
+717ADOWN,8,Verma Farm,28.54,77.24000000000001,20.0
+717ADOWN,9,Kathuria Public School/Vasant Kunj D7,28.545,77.245,22.5
+717ADOWN,10,Masood Pur Dairy,28.55,77.25,25.0
+717ADOWN,11,Masood Pur Village,28.555,77.25500000000001,27.5
+717ADOWN,12,Qutub Minar Metro Sation,28.56,77.26,30.0
+717ADOWN,13,Vasant Kunj Bus Stand / Vasant Kunj Sec B-1,28.565,77.265,32.5
+717ADOWN,14,Kishan Garh,28.57,77.27,35.0
+717ADOWN,15,Vasant Kunj Secd/34,28.575,77.275,37.5
+717ADOWN,16,Vasant Kunj Sec-A / Lbs,28.58,77.28,40.0
+717ADOWN,17,Andheria Bagh More,28.585,77.285,42.5
+717ADOWN,18,Maidan Garhi Crossing (Sdm Court),28.59,77.29,45.0
+717ADOWN,19,Vasant Kunj Sec A Pkt B/C,28.595,77.295,47.5
+717ADOWN,20,Andheria Mor / Chhattar Pur Metro Station,28.6,77.3,50.0
+717ADOWN,21,Kaya Maya Hospital,28.605,77.305,52.5
+717ADOWN,22,Ahinsa Sthal,28.61,77.31,55.0
+717ADOWN,23,Said Ul Zeb Village,28.615,77.315,57.5
+717ADOWN,24,Saket Metro Station,28.62,77.32000000000001,60.0
+717ADOWN,25,Lado Sarai Crossing,28.625,77.325,62.5
+717ADOWN,26,Lado Sarai Firni Road (T),28.63,77.33,65.0
+717ADOWN,27,Air Force Station,28.635,77.33500000000001,67.5
+717ADOWN,28,Saket Crossing,28.64,77.34,70.0
+717ADOWN,29,Asian Market,28.645,77.345,72.5
+717ADOWN,30,Ambedkar Nagar Depot,28.65,77.35000000000001,75.0
+717ADOWN,31,Ambedkar Nagar Terminal,28.655,77.355,77.5
+717ADOWN,32,Prem Nagar,28.66,77.36,80.0
+717ADOWN,33,Dipsar College Of Pharmacy / Ambedkar Nagar (T.),28.665,77.36500000000001,82.5
+717ADOWN,34,Khanpur Extension / Devali Road Xing,28.67,77.37,85.0
+717ADOWN,35,Tughlaqabad Village,28.675,77.375,87.5
+717ADOWN,36,Vayusenabad (Tigri),28.68,77.38000000000001,90.0
+717ADOWN,37,Batra Hospital / Satya Narayan Mandir,28.685,77.385,92.5
+717ADOWN,38,Surajkund Crossing,28.69,77.39,95.0
+717ADOWN,39,Badarpur M B Road / Rajiv Gandhi Stadium,28.695,77.395,97.5
+717ADOWN,40,Mb Road / Okhla More,28.7,77.4,100.0
+717ADOWN,41,Lal Kuan,28.705,77.405,102.5
+717ADOWN,42,Hamdard Nagar / Sangam Vihar,28.71,77.41,105.0
+717ADOWN,43,Badarpur Jaitpur Crossing,28.715,77.415,107.5
+717ADOWN,44,Pul Pehladpur (Badarpur),28.72,77.42,110.0
+717ADOWN,45,Badarpur Border (T),28.725,77.425,112.5
+511AUP,0,Badarpur Border(T),28.5,77.2,0.0
+511AUP,1,Pul Prehladpur ( Badarpur),28.505,77.205,2.5
+511AUP,2,Surajkund Crossing,28.51,77.21000000000001,5.0
+511AUP,3,Lal Kuan,28.515,77.215,7.5
+511AUP,4,Clal Chowk,28.52,77.22,10.0
+511AUP,5,Crpf Camp / Crown Plaza,28.525,77.22500000000001,12.5
+511AUP,6,Okhla Xing,28.53,77.23,15.0
+511AUP,7,Paras Cinema,28.535,77.235,17.5
+511AUP,8,Indra Kalyan Vihar,28.54,77.24000000000001,20.0
+511AUP,9,Esi Hospital Okhla,28.545,77.245,22.5
+511AUP,10,Kalkaji Depot,28.55,77.25,25.0
+511AUP,11,Kalkaji Mandir (Maaanandmayeemarg),28.555,77.25500000000001,27.5
+511AUP,12,Okhla Phase 1,28.56,77.26,30.0
+511AUP,13,Jnu / Jnu Xing,28.565,77.265,32.5
+511AUP,14,Punj Sons / Govind Puri Metro Station,28.57,77.27,35.0
+511AUP,15,Tehkhand Depot Dtc,28.575,77.275,37.5
+511AUP,16,Sanskrit Vidyapeeth,28.58,77.28,40.0
+511AUP,17,Chirag Dilli / Chirag Delhi Metro Station,28.585,77.285,42.5
+511AUP,18,Nehru Place Terminal,28.59,77.29,45.0
+511AUP,19,Masjid Moth,28.595,77.295,47.5
+511AUP,20,Mohan Singh Market / R K Puram Sec-6,28.6,77.3,50.0
+511AUP,21,Pumposh Enclave,28.605,77.305,52.5
+511AUP,22,School Of Physical Science,28.61,77.31,55.0
+511AUP,23,Mothers International School,28.615,77.315,57.5
+511AUP,24,Dda Flats Munirka,28.62,77.32000000000001,60.0
+511AUP,25,Fai,28.625,77.325,62.5
+511AUP,26,Iit Gate,28.63,77.33,65.0
+511AUP,27,Ncert,28.635,77.33500000000001,67.5
+511AUP,28,Qutub Hotel / Govt. Medical Store Departement,28.64,77.34,70.0
+511AUP,29,Sadhna Enclave,28.645,77.345,72.5
+511AUP,30,Panchsheel Club (Sarv Priya Vihar),28.65,77.35000000000001,75.0
+511AUP,31,Rk Puram Sec 7 Som Vihar / Rk Puram Sec Crossing,28.655,77.355,77.5
+511AUP,32,Adhchini Village,28.66,77.36,80.0
+511AUP,33,Swami Nagar,28.665,77.36500000000001,82.5
+511AUP,34,R K Puram Nab,28.67,77.37,85.0
+511AUP,35,R. K. Puram Sec-12 / R. K. Puram Sec,28.675,77.375,87.5
+511AUP,36,Katwaria Sarai / Bharatkhande Sangeet Vidhyalaya,28.68,77.38000000000001,90.0
+511AUP,37,Ber Sarai/Jnu,28.685,77.385,92.5
+511AUP,38,Sangam Cinema Rk Puram Sec12,28.69,77.39,95.0
+511AUP,39,Moti Bagh Gurudawara Nanakpura,28.695,77.395,97.5
+511AUP,40,Rk Puram Sec 1,28.7,77.4,100.0
+511AUP,41,South Moti Bagh (Ring Road) / Moti Bagh,28.705,77.405,102.5
+511AUP,42,Munirka Village (T),28.71,77.41,105.0
+511AUP,43,South Moti Bagh,28.715,77.415,107.5
+511AUP,44,Satya Niketan,28.72,77.42,110.0
+511AUP,45,Arsd College ( Dhaula Kuan),28.725,77.425,112.5
+511AUP,46,Dhaula Kuan (Ring Road),28.73,77.43,115.0
+729DOWN,0,Kapashera Border,28.5,77.2,0.0
+729DOWN,1,Kapashera Village,28.505,77.205,2.5
+729DOWN,2,Kapashera Crossing,28.51,77.21000000000001,5.0
+729DOWN,3,Samalkha Village,28.515,77.215,7.5
+729DOWN,4,Mahipal Pur (Nh8),28.52,77.22,10.0
+729DOWN,5,Samalkha Crossing,28.525,77.22500000000001,12.5
+729DOWN,6,Rang Puri (Nh8),28.53,77.23,15.0
+729DOWN,7,Air Force Hq / Subroto Park,28.535,77.235,17.5
+729DOWN,8,Dhaula Kuan,28.54,77.24000000000001,20.0
+729DOWN,9,Shankar Vihar Nh8 / Shankar Vihar,28.545,77.245,22.5
+729DOWN,10,Officer Enclave S.P Marg / Sardar Patel Marg,28.55,77.25,25.0
+729DOWN,11,Shiv Murti (Nh8),28.555,77.25500000000001,27.5
+729DOWN,12,Uppal Hotel,28.56,77.26,30.0
+729DOWN,13,Jln Marg / Civic Centre,28.565,77.265,32.5
+729DOWN,14,Aps Colony/ Jharera Gaon,28.57,77.27,35.0
+729DOWN,15,Bapu Dham,28.575,77.275,37.5
+729DOWN,16,Kendriya Vidhyalaya Aps Colony,28.58,77.28,40.0
+729DOWN,17,Rr Hospital,28.585,77.285,42.5
+729DOWN,18,Talkatora Stadium Garden,28.59,77.29,45.0
+729DOWN,19,Delite Cinema,28.595,77.295,47.5
+729DOWN,20,Subhash Park,28.6,77.3,50.0
+729DOWN,21,11 Murti,28.605,77.305,52.5
+729DOWN,22,Ndpo,28.61,77.31,55.0
+729DOWN,23,Bhartiya Sadhu Samaj / Malcha Marg,28.615,77.315,57.5
+729DOWN,24,Kendriya Terminal (Pt. Pant Marg),28.62,77.32000000000001,60.0
+729DOWN,25,Talkatora Road,28.625,77.325,62.5
+729DOWN,26,Golcha Cinema,28.63,77.33,65.0
+729DOWN,27,Palika Kutumb,28.635,77.33500000000001,67.5
+729DOWN,28,Railway Colony (Sardar Patel Marg),28.64,77.34,70.0
+729DOWN,29,Ggs University Isbt Kashmere Gate,28.645,77.345,72.5
+729DOWN,30,Zakir Husain College,28.65,77.35000000000001,75.0
+729DOWN,31,Darya Ganj,28.655,77.355,77.5
+729DOWN,32,Shivaji Park,28.66,77.36,80.0
+729DOWN,33,Regal,28.665,77.36500000000001,82.5
+729DOWN,34,Vivekanand Marg / Minto Road,28.67,77.37,85.0
+729DOWN,35,Gurudwara Bangla Sahib,28.675,77.375,87.5
+729DOWN,36,Dr. Rml Hospital,28.68,77.38000000000001,90.0
+729DOWN,37,Regal / Palika Kendra,28.685,77.385,92.5
+729DOWN,38,Isbt Nitayanand Marg,28.69,77.39,95.0
+729DOWN,39,Delhi Gate,28.695,77.395,97.5
+729DOWN,40,Jama Masjid,28.7,77.4,100.0
+729DOWN,41,Isbt Kashmere Gate City Bus Terminal / Isbt Maharana Pratap Bus Terminal,28.705,77.405,102.5
+729DOWN,42,Gpo Kasmeri Gate,28.71,77.41,105.0
+729DOWN,43,Red Fort,28.715,77.415,107.5
+729DOWN,44,Mori Gate Terminal,28.72,77.42,110.0
+511ADOWN,0,Aradhna Enclave,28.5,77.2,0.0
+511ADOWN,1,South Moti Bagh (Ring Road) / Moti Bagh / Rao Tula Ram Marg,28.505,77.205,2.5
+511ADOWN,2,Munirka Dda Flats,28.51,77.21000000000001,5.0
+511ADOWN,3,Nanak Pura Gurudwara Moti Bagh,28.515,77.215,7.5
+511ADOWN,4,Qutab Hotel,28.52,77.22,10.0
+511ADOWN,5,Rk Puram Sec1,28.525,77.22500000000001,12.5
+511ADOWN,6,Istm / Jnu,28.53,77.23,15.0
+511ADOWN,7,Satya Niketan,28.535,77.235,17.5
+511ADOWN,8,Katwaria Sarai,28.54,77.24000000000001,20.0
+511ADOWN,9,Munirka Village (T),28.545,77.245,22.5
+511ADOWN,10,Panchsheel Club / Sarvpriya Vihar,28.55,77.25,25.0
+511ADOWN,11,Chirag Dilli / Chirag Delhi Metro Station :,28.555,77.25500000000001,27.5
+511ADOWN,12,North Point (Nursing Home),28.56,77.26,30.0
+511ADOWN,13,Pumposh Enclave,28.565,77.265,32.5
+511ADOWN,14,Adhchini Village,28.57,77.27,35.0
+511ADOWN,15,Sadhna Enclave,28.575,77.275,37.5
+511ADOWN,16,Sanskrit Vidyapeeth,28.58,77.28,40.0
+511ADOWN,17,Mothers International School,28.585,77.285,42.5
+511ADOWN,18,Fai,28.59,77.29,45.0
+511ADOWN,19,Panchsheel Club /Panchsheel Enclave,28.595,77.295,47.5
+511ADOWN,20,R K Puram Nab,28.6,77.3,50.0
+511ADOWN,21,Rk Puram Sec 13,28.605,77.305,52.5
+511ADOWN,22,Swami Nagar,28.61,77.31,55.0
+511ADOWN,23,Kalkaji Mandir (Maaanandmayeemarg),28.615,77.315,57.5
+511ADOWN,24,Os Communications,28.62,77.32000000000001,60.0
+511ADOWN,25,Dhaula Kuan (Ring Road),28.625,77.325,62.5
+511ADOWN,26,Bank,28.63,77.33,65.0
+511ADOWN,27,Masjid Moth,28.635,77.33500000000001,67.5
+511ADOWN,28,Paras Cinema,28.64,77.34,70.0
+511ADOWN,29,Rk Puram Crossing,28.645,77.345,72.5
+511ADOWN,30,Tehkhand Depot Dtc,28.65,77.35000000000001,75.0
+511ADOWN,31,Punj Sons / Govind Puri Metro Station,28.655,77.355,77.5
+511ADOWN,32,Nehru Place Terminal,28.66,77.36,80.0
+511ADOWN,33,Kalkaji Depot,28.665,77.36500000000001,82.5
+511ADOWN,34,Crown Plaza,28.67,77.37,85.0
+511ADOWN,35,Okhla Crossing,28.675,77.375,87.5
+511ADOWN,36,Badarpur M B Road / Rajiv Gandhi Stadium,28.68,77.38000000000001,90.0
+511ADOWN,37,Crpf Camp / Crown Plaza,28.685,77.385,92.5
+511ADOWN,38,Clal Chowk,28.69,77.39,95.0
+511ADOWN,39,Indra Kalyan Vihar,28.695,77.395,97.5
+511ADOWN,40,Surajkund Crossing,28.7,77.4,100.0
+511ADOWN,41,E.S.I. Hospital,28.705,77.405,102.5
+511ADOWN,42,Lal Kuan,28.71,77.41,105.0
+511ADOWN,43,Okhla Phase 1,28.715,77.415,107.5
+511ADOWN,44,Badarpur Jaitpur Crossing,28.72,77.42,110.0
+511ADOWN,45,Pul Pehladpur (Badarpur),28.725,77.425,112.5
+511ADOWN,46,Badarpur Border (T),28.73,77.43,115.0
+729UP,0,Red Fort,28.5,77.2,0.0
+729UP,1,Ggs University Isbt Kashmere Gate,28.505,77.205,2.5
+729UP,2,Gpo Kasmeri Gate,28.51,77.21000000000001,5.0
+729UP,3,Isbt Nityanand Marg,28.515,77.215,7.5
+729UP,4,Jama Masjid,28.52,77.22,10.0
+729UP,5,Vivekanand Marg / Minto Road,28.525,77.22500000000001,12.5
+729UP,6,Lnjp Hospital,28.53,77.23,15.0
+729UP,7,Mori Gate Terminal,28.535,77.235,17.5
+729UP,8,Shivaji Park,28.54,77.24000000000001,20.0
+729UP,9,Isbt Kashmere Gate (Lothian Road),28.545,77.245,22.5
+729UP,10,Super Bazar,28.55,77.25,25.0
+729UP,11,Kendriya Terminal / Gurudwara Rakab Gunj,28.555,77.25500000000001,27.5
+729UP,12,Regal / Palika Kendra,28.56,77.26,30.0
+729UP,13,Darya Ganj / Subhash Nagar,28.565,77.265,32.5
+729UP,14,Golcha Cinema,28.57,77.27,35.0
+729UP,15,Delhi Gate (Jln Marg),28.575,77.275,37.5
+729UP,16,Talkatora Road,28.58,77.28,40.0
+729UP,17,Zakir Husain College,28.585,77.285,42.5
+729UP,18,Rr Hospital / Maharana Pratap Chowk,28.59,77.29,45.0
+729UP,19,Kendriya Vidhyalaya / Aps School,28.595,77.295,47.5
+729UP,20,Ndpo,28.6,77.3,50.0
+729UP,21,Railway Colony (Sardar Patel Marg),28.605,77.305,52.5
+729UP,22,Talkatora Stadium Garden,28.61,77.31,55.0
+729UP,23,Air Force Hq / Subroto Park,28.615,77.315,57.5
+729UP,24,11 Murti / Sardar Patel Road Xing,28.62,77.32000000000001,60.0
+729UP,25,Bhartiya Sadhu Samaj,28.625,77.325,62.5
+729UP,26,Darya Ganj,28.63,77.33,65.0
+729UP,27,Patel Chowk (Ashoka Road),28.635,77.33500000000001,67.5
+729UP,28,Palika Kutumb,28.64,77.34,70.0
+729UP,29,Taj Palace Hotel,28.645,77.345,72.5
+729UP,30,Gurudwara Bangla Sahib,28.65,77.35000000000001,75.0
+729UP,31,Kendriya Terminal (Pt. Pant Marg),28.655,77.355,77.5
+729UP,32,Ps Parliament / Jantar Mantar,28.66,77.36,80.0
+729UP,33,Bapu Dham,28.665,77.36500000000001,82.5
+729UP,34,Dr. Rml Hospital,28.67,77.37,85.0
+729UP,35,Samlakha Xing,28.675,77.375,87.5
+729UP,36,Rajokari Xing,28.68,77.38000000000001,90.0
+729UP,37,Aps Colony/ Jharera Gaon,28.685,77.385,92.5
+729UP,38,Shiv Murti,28.69,77.39,95.0
+729UP,39,Shankar Vihar / National Highway 8,28.695,77.395,97.5
+729UP,40,Rajokari Crossing Nh8 / Shiv Murti,28.7,77.4,100.0
+729UP,41,Dhaula Kuan,28.705,77.405,102.5
+729UP,42,Kapashera Village,28.71,77.41,105.0
+729UP,43,Rang Puri (Nh8),28.715,77.415,107.5
+729UP,44,Samalkha Village,28.72,77.42,110.0
+729UP,45,Kapashera Crossing,28.725,77.425,112.5
+729UP,46,Mahipal Pur Village / Mahipal Pur Crossing Nh8,28.73,77.43,115.0
+729UP,47,Kapashera Border,28.735,77.435,117.5
+623UP,0,Shahdara Terminal,28.5,77.2,0.0
+623UP,1,Shahdara (Shyam Lal College),28.505,77.205,2.5
+623UP,2,Laxmi Nagar (Vikas Marg) / Laxmi Nagar Metro Station,28.51,77.21000000000001,5.0
+623UP,3,Bihari Colony/Kanti Nagar,28.515,77.215,7.5
+623UP,4,Jagatpuri A Block,28.52,77.22,10.0
+623UP,5,Arjun Nagar,28.525,77.22500000000001,12.5
+623UP,6,Hans Apartment,28.53,77.23,15.0
+623UP,7,Shakarpur Crossing,28.535,77.235,17.5
+623UP,8,Swaran Cinema,28.54,77.24000000000001,20.0
+623UP,9,Raj Nagar,28.545,77.245,22.5
+623UP,10,East Krishna Nagar / Krishna Nagar A Block,28.55,77.25,25.0
+623UP,11,Jagatpuri Fblock,28.555,77.25500000000001,27.5
+623UP,12,Rainy Well,28.56,77.26,30.0
+623UP,13,Shakarpur (Vikas Marg),28.565,77.265,32.5
+623UP,14,Sujan Singh Park,28.57,77.27,35.0
+623UP,15,Delhi Secretariat,28.575,77.275,37.5
+623UP,16,East Azad Nagar,28.58,77.28,40.0
+623UP,17,Patiala House,28.585,77.285,42.5
+623UP,18,Jharkhandi,28.59,77.29,45.0
+623UP,19,Radheypuri,28.595,77.295,47.5
+623UP,20,Supreme Court,28.6,77.3,50.0
+623UP,21,Gagan Vihar,28.605,77.305,52.5
+623UP,22,Ito Agcr / Ito,28.61,77.31,55.0
+623UP,23,Kota House,28.615,77.315,57.5
+623UP,24,New Rajdhani Enclave / Preet Vihar Metro Station,28.62,77.32000000000001,60.0
+623UP,25,R K Puram Nab,28.625,77.325,62.5
+623UP,26,Tilak Bridge,28.63,77.33,65.0
+623UP,27,Major Dayan Chand National Stadium / National Stadium,28.635,77.33500000000001,67.5
+623UP,28,National Gallery Of Modern Art,28.64,77.34,70.0
+623UP,29,Pt College Kotla,28.645,77.345,72.5
+623UP,30,Swasthya Vihar / Preet Vihar,28.65,77.35000000000001,75.0
+623UP,31,Dayal Singh College,28.655,77.355,77.5
+623UP,32,Karkardooma Crossing,28.66,77.36,80.0
+623UP,33,Nelson Mandela Marg / Nelson Mandela Marg Xing,28.665,77.36500000000001,82.5
+623UP,34,South Extension 2,28.67,77.37,85.0
+623UP,35,Africa Avenue,28.675,77.375,87.5
+623UP,36,Netaji Nagar / Bhikaji Cama Place,28.68,77.38000000000001,90.0
+623UP,37,Power House,28.685,77.385,92.5
+623UP,38,Aiims,28.69,77.39,95.0
+623UP,39,Cpwd Colony Vasant Vihar,28.695,77.395,97.5
+623UP,40,Humayun Road / Khan Market,28.7,77.4,100.0
+623UP,41,Pragati Vihar,28.705,77.405,102.5
+623UP,42,R K Puram Sec2,28.71,77.41,105.0
+623UP,43,Rk Khanna Tennis Stadium,28.715,77.415,107.5
+623UP,44,Sewa Nagar Flyover,28.72,77.42,110.0
+623UP,45,Vasant Vihar Depot / Poorvi Marg Rk Puram Sec 5,28.725,77.425,112.5
+623UP,46,Vasant Vihar Metro Station,28.73,77.43,115.0
+623UP,47,Bharti Nagar,28.735,77.435,117.5
+623UP,48,Nirman Vihar,28.74,77.44,120.0
+623UP,49,Shajahan Road Upsc,28.745,77.44500000000001,122.5
+623UP,50,Sj Hospital Ring Road,28.75,77.45,125.0
+623UP,51,Mohammadpur Village,28.755,77.455,127.5
+623UP,52,Nauroji Nagar,28.76,77.46000000000001,130.0
+623UP,53,Vasant Vihar F Block Poorvi Marg,28.765,77.465,132.5
+623UP,54,Shoping Complex (Nelson Mandela Marg) / Ambience Mall,28.77,77.47,135.0
+623UP,55,Defence Colony (Homyopathic College),28.775,77.47500000000001,137.5
+623UP,56,Indian Airlines/Priya Cinema,28.78,77.48,140.0
+623UP,57,R K Puram Sec3,28.785,77.485,142.5
+623UP,58,Rk Puram Sec 4,28.79,77.49000000000001,145.0
+623UP,59,Kathuria Public School (Sai Darbar Mandir),28.795,77.495,147.5
+623UP,60,Hill Area /Mall / Paschimabad,28.8,77.5,150.0
+623UP,61,Vasant Kunj Police Station,28.805,77.50500000000001,152.5
+623UP,62,J L Nehru Stadium,28.81,77.51,155.0
+623UP,63,Varma Farm,28.815,77.515,157.5
+623UP,64,Modern School Vasant Vihar F Block,28.82,77.52,160.0
+623UP,65,Nelson Mandela Marg T Point,28.825,77.525,162.5
+623UP,66,Rk Puram Sec 1,28.83,77.53,165.0
+623UP,67,Vasant Vihar Depot,28.835,77.535,167.5
+623UP,68,Munirka Village (T),28.84,77.54,170.0
+623UP,69,Isic Hospital,28.845,77.545,172.5
+623UP,70,Nangal Dewat,28.85,77.55,175.0
+717BDOWN,0,Mahipal Pur Village,28.5,77.2,0.0
+717BDOWN,1,Radission Hotel,28.505,77.205,2.5
+717BDOWN,2,Air Traffic Control Office,28.51,77.21000000000001,5.0
+717BDOWN,3,Rang Puri Pahari,28.515,77.215,7.5
+717BDOWN,4,Masood Pur Dairy,28.52,77.22,10.0
+717BDOWN,5,Cargo / Express Terminal Gate 6,28.525,77.22500000000001,12.5
+717BDOWN,6,Cantoor Hotel / New Custom House,28.53,77.23,15.0
+717BDOWN,7,Igi Airport Terminal 2 (Air India Office),28.535,77.235,17.5
+717BDOWN,8,Isic Hospital,28.54,77.24000000000001,20.0
+717BDOWN,9,Masood Pur Village,28.545,77.245,22.5
+717BDOWN,10,Vasant Kunj Secd/34,28.55,77.25,25.0
+717BDOWN,11,Vasant Kunj Bus Stand / Vasant Kunj Sec B-1,28.555,77.25500000000001,27.5
+717BDOWN,12,Vasant Kunj C8 (Vasant Kunj Road),28.56,77.26,30.0
+717BDOWN,13,Kathuria Public School/Vasant Kunj D7,28.565,77.265,32.5
+717BDOWN,14,Vasant Kunj Sec-A / Lbs,28.57,77.27,35.0
+717BDOWN,15,Verma Farm,28.575,77.275,37.5
+717BDOWN,16,Maidan Garhi Crossing (Sdm Court),28.58,77.28,40.0
+717BDOWN,17,Qutub Minar Metro Sation,28.585,77.285,42.5
+717BDOWN,18,Dhaula Peer Lado Sarai,28.59,77.29,45.0
+717BDOWN,19,Kishan Garh,28.595,77.295,47.5
+717BDOWN,20,Ahinsa Sthal,28.6,77.3,50.0
+717BDOWN,21,Lado Sarai,28.605,77.305,52.5
+717BDOWN,22,Vasant Kunj Sec A Pkt B/C,28.61,77.31,55.0
+717BDOWN,23,Andheria Bagh More,28.615,77.315,57.5
+717BDOWN,24,Kaya Maya Hospital,28.62,77.32000000000001,60.0
+717BDOWN,25,Saket Crossing,28.625,77.325,62.5
+717BDOWN,26,Asian Market,28.63,77.33,65.0
+717BDOWN,27,Said Ul Zeb Village,28.635,77.33500000000001,67.5
+717BDOWN,28,Prem Nagar,28.64,77.34,70.0
+717BDOWN,29,Lado Sarai Crossing,28.645,77.345,72.5
+717BDOWN,30,Air Force Station,28.65,77.35000000000001,75.0
+717BDOWN,31,Dipsar College Of Pharmacy / Ambedkar Nagar (T.),28.655,77.355,77.5
+717BDOWN,32,Ambedkar Nagar Terminal,28.66,77.36,80.0
+717BDOWN,33,Mb Road / Okhla More,28.665,77.36500000000001,82.5
+717BDOWN,34,Ambedkar Nagar Depot,28.67,77.37,85.0
+717BDOWN,35,Batra Hospital / Satya Narayan Mandir,28.675,77.375,87.5
+717BDOWN,36,Vayusenabad (Tigri),28.68,77.38000000000001,90.0
+717BDOWN,37,Lal Kuan,28.685,77.385,92.5
+717BDOWN,38,Surajkund Crossing,28.69,77.39,95.0
+717BDOWN,39,Khanpur Extension / Devali Road Xing,28.695,77.395,97.5
+717BDOWN,40,Tughlaqabad Village,28.7,77.4,100.0
+717BDOWN,41,Hamdard Nagar / Sangam Vihar,28.705,77.405,102.5
+717BDOWN,42,Badarpur M B Road / Rajiv Gandhi Stadium,28.71,77.41,105.0
+717BDOWN,43,Pul Pehladpur (Badarpur),28.715,77.415,107.5
+717BDOWN,44,Badarpur Border (T),28.72,77.42,110.0
+578UP,0,Kidwai Nagar,28.5,77.2,0.0
+578UP,1,Hyatt Hotel,28.505,77.205,2.5
+578UP,2,S.J. Hospital,28.51,77.21000000000001,5.0
+578UP,3,Raj Nagar,28.515,77.215,7.5
+578UP,4,S.J. Terminal,28.52,77.22,10.0
+578UP,5,Shiv Murti -2,28.525,77.22500000000001,12.5
+578UP,6,R.K. Puram Crossing,28.53,77.23,15.0
+578UP,7,Vasant Vihar Depot,28.535,77.235,17.5
+578UP,8,Narauji Nagar,28.54,77.24000000000001,20.0
+578UP,9,R.K. Puram Sec-1,28.545,77.245,22.5
+578UP,10,Vikas Sadan,28.55,77.25,25.0
+578UP,11,Munirka Village,28.555,77.25500000000001,27.5
+578UP,12,Desu Powar House,28.56,77.26,30.0
+578UP,13,R.K. Puram Sec-4 (Andh Vidyalaya),28.565,77.265,32.5
+578UP,14,R.K. Puram Sec-6,28.57,77.27,35.0
+578UP,15,Vasant Vihar Crossing/R.K.Puram Sec-5,28.575,77.275,37.5
+578UP,16,Pashchimi Marg Vasant Vihar,28.58,77.28,40.0
+578UP,17,Ina Colony,28.585,77.285,42.5
+578UP,18,Signal Enclave,28.59,77.29,45.0
+578UP,19,Vasant Village,28.595,77.295,47.5
+578UP,20,Check Post,28.6,77.3,50.0
+578UP,21,Mahipal Pur,28.605,77.305,52.5
+578UP,22,Kapashera Village,28.61,77.31,55.0
+578UP,23,Swami Malai Mandir,28.615,77.315,57.5
+578UP,24,Rang Puri Village,28.62,77.32000000000001,60.0
+578UP,25,Shiv Murti,28.625,77.325,62.5
+578UP,26,Harijan Basti,28.63,77.33,65.0
+578UP,27,Kapashera Crossing,28.635,77.33500000000001,67.5
+578UP,28,Aps Colony,28.64,77.34,70.0
+578UP,29,Samalkha Village,28.645,77.345,72.5
+578UP,30,Chhawala School,28.65,77.35000000000001,75.0
+578UP,31,Subroto Park / Arjun Path,28.655,77.355,77.5
+578UP,32,Samalkha Crossing,28.66,77.36,80.0
+578UP,33,Syndicate Bank,28.665,77.36500000000001,82.5
+578UP,34,Bamnoli,28.67,77.37,85.0
+578UP,35,Jhatikra Crossing,28.675,77.375,87.5
+578UP,36,Bijwason School,28.68,77.38000000000001,90.0
+578UP,37,Nhw 8- Crossing,28.685,77.385,92.5
+578UP,38,Pushpanjali (Farm),28.69,77.39,95.0
+578UP,39,Chhawala Camp,28.695,77.395,97.5
+578UP,40,Rajoukari X-Ing,28.7,77.4,100.0
+578UP,41,Durga Vihar,28.705,77.405,102.5
+578UP,42,Bijwason Flyover After Bridge,28.71,77.41,105.0
+578UP,43,Bsf Staff Quarter,28.715,77.415,107.5
+578UP,44,Chhawala Village,28.72,77.42,110.0
+578UP,45,Deen Pur Village,28.725,77.425,112.5
+578UP,46,Roshan Pura,28.73,77.43,115.0
+578UP,47,Goela Crossing,28.735,77.435,117.5
+578UP,48,Bdo Office,28.74,77.44,120.0
+578UP,49,Ps Najaf Garh,28.745,77.44500000000001,122.5
+578UP,50,Chhawala Stand N.Garh,28.75,77.45,125.0
+578UP,51,Jharoda More,28.755,77.455,127.5
+578UP,52,Dhansa Stand Najaf Garh,28.76,77.46000000000001,130.0
+578UP,53,Dichau Kalan Depot,28.765,77.465,132.5
+578DOWN,0,Health Center,28.5,77.2,0.0
+578DOWN,1,Dichau Kalan Depot,28.505,77.205,2.5
+578DOWN,2,Najafgarh Delhi Gate,28.51,77.21000000000001,5.0
+578DOWN,3,Najafgarh Nangloi Stand,28.515,77.215,7.5
+578DOWN,4,Chhawala Stand N.Garh,28.52,77.22,10.0
+578DOWN,5,Roshan Pura,28.525,77.22500000000001,12.5
+578DOWN,6,Bdo Office,28.53,77.23,15.0
+578DOWN,7,Goela Crossing,28.535,77.235,17.5
+578DOWN,8,Jhatikra Crossing,28.54,77.24000000000001,20.0
+578DOWN,9,Desu Powar House,28.545,77.245,22.5
+578DOWN,10,Durga Vihar,28.55,77.25,25.0
+578DOWN,11,Deen Pur Village,28.555,77.25500000000001,27.5
+578DOWN,12,Jharonda Xing,28.56,77.26,30.0
+578DOWN,13,Nhw-8 Crossing,28.565,77.265,32.5
+578DOWN,14,Signal Enclave,28.57,77.27,35.0
+578DOWN,15,Bsf Staff Quarter,28.575,77.275,37.5
+578DOWN,16,Harijan Basti,28.58,77.28,40.0
+578DOWN,17,Subroto Park / Arjun Path,28.585,77.285,42.5
+578DOWN,18,Chhawala Village,28.59,77.29,45.0
+578DOWN,19,Pushpanjali (Farm),28.595,77.295,47.5
+578DOWN,20,Check Post,28.6,77.3,50.0
+578DOWN,21,R.K. Puram Sec-4 (Andh Vidyalaya),28.605,77.305,52.5
+578DOWN,22,Chhawala Camp/Bsf,28.61,77.31,55.0
+578DOWN,23,Vasant Village,28.615,77.315,57.5
+578DOWN,24,Pashchimi Marg Vasant Vihar,28.62,77.32000000000001,60.0
+578DOWN,25,Chhawala School,28.625,77.325,62.5
+578DOWN,26,Raj Nagar,28.63,77.33,65.0
+578DOWN,27,Syndicate Bank,28.635,77.33500000000001,67.5
+578DOWN,28,Aps Colony,28.64,77.34,70.0
+578DOWN,29,Bamnoli,28.645,77.345,72.5
+578DOWN,30,Vasant Vihar Crossing/R.K.Puram Sec-5,28.65,77.35000000000001,75.0
+578DOWN,31,Bijwason School (Golak Dham),28.655,77.355,77.5
+578DOWN,32,Bijwason Flyover Before Bridge,28.66,77.36,80.0
+578DOWN,33,Mahipal Pur Extension,28.665,77.36500000000001,82.5
+578DOWN,34,R.K. Puram Sec-6,28.67,77.37,85.0
+578DOWN,35,Samalkha Xing,28.675,77.375,87.5
+578DOWN,36,Shiv Murti,28.68,77.38000000000001,90.0
+578DOWN,37,Rang Puri Village,28.685,77.385,92.5
+578DOWN,38,Swami Malai Mandir,28.69,77.39,95.0
+578DOWN,39,Vasant Vihar Depot,28.695,77.395,97.5
+578DOWN,40,Kapashera Crossing,28.7,77.4,100.0
+578DOWN,41,Africa Avenue,28.705,77.405,102.5
+578DOWN,42,Samalkha Village,28.71,77.41,105.0
+578DOWN,43,Mahipal Pur,28.715,77.415,107.5
+578DOWN,44,Kapashera Village,28.72,77.42,110.0
+578DOWN,45,Mohamed Pur Village,28.725,77.425,112.5
+578DOWN,46,R.K. Puram Sec-1,28.73,77.43,115.0
+578DOWN,47,Munirka Village,28.735,77.435,117.5
+578DOWN,48,Kidwai Nagar,28.74,77.44,120.0
+578DOWN,49,Ina Colony,28.745,77.44500000000001,122.5
+578DOWN,50,Narauji Nagar,28.75,77.45,125.0
+578DOWN,51,Bhikaji Kama Place,28.755,77.455,127.5
+578DOWN,52,S.J. Hospital,28.76,77.46000000000001,130.0
+578DOWN,53,S.J. Terminal,28.765,77.465,132.5
+623DOWN,0,Nelson Mandela Marg,28.5,77.2,0.0
+623DOWN,1,Nangal Dewat,28.505,77.205,2.5
+623DOWN,2,Africa Avenue,28.51,77.21000000000001,5.0
+623DOWN,3,Isic Hospital,28.515,77.215,7.5
+623DOWN,4,P S Vasant Kunj,28.52,77.22,10.0
+623DOWN,5,R K Puram Sec-4,28.525,77.22500000000001,12.5
+623DOWN,6,Vasant Vihar Depot,28.53,77.23,15.0
+623DOWN,7,Kathuria Public School,28.535,77.235,17.5
+623DOWN,8,Munirka Village,28.54,77.24000000000001,20.0
+623DOWN,9,Shopping Mall Hill Area,28.545,77.245,22.5
+623DOWN,10,Verma Farm,28.55,77.25,25.0
+623DOWN,11,R K Puram Sec-1,28.555,77.25500000000001,27.5
+623DOWN,12,Modern School Vasant Vihar,28.56,77.26,30.0
+623DOWN,13,R K Puram Sec-3,28.565,77.265,32.5
+623DOWN,14,Mohammed Pur,28.57,77.27,35.0
+623DOWN,15,Power House,28.575,77.275,37.5
+623DOWN,16,Poorvi Marg,28.58,77.28,40.0
+623DOWN,17,Vasant Lok,28.585,77.285,42.5
+623DOWN,18,F-Block Vasant Vihar,28.59,77.29,45.0
+623DOWN,19,Pt College Kotla,28.595,77.295,47.5
+623DOWN,20,Bharti Nagar,28.6,77.3,50.0
+623DOWN,21,Narouji Nagar,28.605,77.305,52.5
+623DOWN,22,Sewa Nagar Flyover,28.61,77.31,55.0
+623DOWN,23,Bhikaji Cama Place,28.615,77.315,57.5
+623DOWN,24,Kotah House,28.62,77.32000000000001,60.0
+623DOWN,25,Nelson Mandela Marg X-Ing,28.625,77.325,62.5
+623DOWN,26,Indian Air Lines Colony Vasant Vihar,28.63,77.33,65.0
+623DOWN,27,R K Puram Sec-2,28.635,77.33500000000001,67.5
+623DOWN,28,Vasant Vihar Cpwd Colony,28.64,77.34,70.0
+623DOWN,29,Pragati Vihar,28.645,77.345,72.5
+623DOWN,30,Rainy Well,28.65,77.35000000000001,75.0
+623DOWN,31,Delhi Sect.,28.655,77.355,77.5
+623DOWN,32,Humayun Road,28.66,77.36,80.0
+623DOWN,33,S J Hospital,28.665,77.36500000000001,82.5
+623DOWN,34,South Ext Kotla Petrol Pump,28.67,77.37,85.0
+623DOWN,35,Aiims,28.675,77.375,87.5
+623DOWN,36,Defence Colony,28.68,77.38000000000001,90.0
+623DOWN,37,Jhar Khandi,28.685,77.385,92.5
+623DOWN,38,Shahjahan Road,28.69,77.39,95.0
+623DOWN,39,South Extension 1,28.695,77.395,97.5
+623DOWN,40,Arjun Nagar,28.7,77.4,100.0
+623DOWN,41,Ito-Agcr,28.705,77.405,102.5
+623DOWN,42,New Rajdhani Enclave,28.71,77.41,105.0
+623DOWN,43,Hans Apartment,28.715,77.415,107.5
+623DOWN,44,Jawahar Lal Nehru Stadium,28.72,77.42,110.0
+623DOWN,45,Radhey Puri,28.725,77.425,112.5
+623DOWN,46,Sujan Singh Park,28.73,77.43,115.0
+623DOWN,47,Jagat Puri F Block,28.735,77.435,117.5
+623DOWN,48,Tilak Bridge,28.74,77.44,120.0
+623DOWN,49,Shakarpur,28.745,77.44500000000001,122.5
+623DOWN,50,Shakarpur Xing,28.75,77.45,125.0
+623DOWN,51,Swashthya Vihar,28.755,77.455,127.5
+623DOWN,52,Patiala House,28.76,77.46000000000001,130.0
+623DOWN,53,Supreme Court,28.765,77.465,132.5
+623DOWN,54,Dayal Singh College,28.77,77.47,135.0
+623DOWN,55,Karkardooma Crossing,28.775,77.47500000000001,137.5
+623DOWN,56,Baroda House,28.78,77.48,140.0
+623DOWN,57,Krishna Nagar A Block,28.785,77.485,142.5
+623DOWN,58,East Azad Nagar,28.79,77.49000000000001,145.0
+623DOWN,59,Kanti Nagar Extn. / Bihari Colony,28.795,77.495,147.5
+623DOWN,60,Jagat Puri A Block,28.8,77.5,150.0
+623DOWN,61,Nirman Vihar,28.805,77.50500000000001,152.5
+623DOWN,62,Swaran Cinema,28.81,77.51,155.0
+623DOWN,63,Shyam Lal College,28.815,77.515,157.5
+623DOWN,64,Laxmi Nagar,28.82,77.52,160.0
+623DOWN,65,Shahdara Terminal,28.825,77.525,162.5
+764DOWN,0,Nehru Place Terminal,28.5,77.2,0.0
+764DOWN,1,Paras Cinema,28.505,77.205,2.5
+764DOWN,2,Panchsheel Club (Sarv Priya Vihar),28.51,77.21000000000001,5.0
+764DOWN,3,Masjid Moth,28.515,77.215,7.5
+764DOWN,4,Pumposh Enclave,28.52,77.22,10.0
+764DOWN,5,Vasant Vihar Depot,28.525,77.22500000000001,12.5
+764DOWN,6,Iit Gate,28.53,77.23,15.0
+764DOWN,7,Os Communication,28.535,77.235,17.5
+764DOWN,8,Swami Nagar,28.54,77.24000000000001,20.0
+764DOWN,9,J M International School,28.545,77.245,22.5
+764DOWN,10,North Paint Nursing Home / Panchsheel Park Metro Station,28.55,77.25,25.0
+764DOWN,11,Vasant Vihar / Poorvi Marg Rk Puram Sec 5,28.555,77.25500000000001,27.5
+764DOWN,12,Dda Flats Munirka,28.56,77.26,30.0
+764DOWN,13,Dwarka Crossing / Maharaja Agrasen Hospital,28.565,77.265,32.5
+764DOWN,14,Greater Kailash,28.57,77.27,35.0
+764DOWN,15,Rk Puram Sec 6,28.575,77.275,37.5
+764DOWN,16,Chirag Dilli / Chirag Delhi Metro Station,28.58,77.28,40.0
+764DOWN,17,Iit Hostel,28.585,77.285,42.5
+764DOWN,18,Jia Sarai,28.59,77.29,45.0
+764DOWN,19,Rao Tula Ram College / Vasant Village / Shani Mandir,28.595,77.295,47.5
+764DOWN,20,Dwarka Sec 2/6,28.6,77.3,50.0
+764DOWN,21,Iol,28.605,77.305,52.5
+764DOWN,22,Kendriya Vidhyalaya / Aps School,28.61,77.31,55.0
+764DOWN,23,Swami Malai Mandir,28.615,77.315,57.5
+764DOWN,24,Indian Oil Station,28.62,77.32000000000001,60.0
+764DOWN,25,Arjun Path / Aps Colony,28.625,77.325,62.5
+764DOWN,26,Dwarka - Xing,28.63,77.33,65.0
+764DOWN,27,I.S.T.M (National Institute Of Health & Family Welfare),28.635,77.33500000000001,67.5
+764DOWN,28,Munirka Famliy Planing,28.64,77.34,70.0
+764DOWN,29,Mangla Puri X-Ing / Dwarka Gate,28.645,77.345,72.5
+764DOWN,30,Sadhna Enclave,28.65,77.35000000000001,75.0
+764DOWN,31,Surakh Pur Crossing,28.655,77.355,77.5
+764DOWN,32,Panchsheel Club / Panchsheel Enclave,28.66,77.36,80.0
+764DOWN,33,Dwarka Flyover Palam Village / Palam Railway Xing,28.665,77.36500000000001,82.5
+764DOWN,34,Palam Airport / Igi Airport T1,28.67,77.37,85.0
+764DOWN,35,Raksha Bhawan Palam,28.675,77.375,87.5
+764DOWN,36,Chhathh Ghat Park,28.68,77.38000000000001,90.0
+764DOWN,37,Dwarka Sec 3/4,28.685,77.385,92.5
+764DOWN,38,Dwarka Sector 1,28.69,77.39,95.0
+764DOWN,39,Kakrola Bridge,28.695,77.395,97.5
+764DOWN,40,New Anaj Mandi (Najafgarh),28.7,77.4,100.0
+764DOWN,41,Dwarka Sec 13/3 Xing,28.705,77.405,102.5
+764DOWN,42,Jharoda Crossing Jharoda Road,28.71,77.41,105.0
+764DOWN,43,Power House Najafgarh,28.715,77.415,107.5
+764DOWN,44,Saraswati Kunj Jharoda,28.72,77.42,110.0
+764DOWN,45,Palam More,28.725,77.425,112.5
+764DOWN,46,Baba Haridass Nagar,28.73,77.43,115.0
+764DOWN,47,Dps Matiyala (Delhi Public School ),28.735,77.435,117.5
+764DOWN,48,Pts Jharoda,28.74,77.44,120.0
+764DOWN,49,Police Station Najafgarh,28.745,77.44500000000001,122.5
+764DOWN,50,Prehlad Pur ( Palam ),28.75,77.45,125.0
+764DOWN,51,Shakurpur Village / Shiv Mandir / Sanik Enclave,28.755,77.455,127.5
+764DOWN,52,Dwarka Sec 13 / 14,28.76,77.46000000000001,130.0
+764DOWN,53,Jharoda Nala Crossing,28.765,77.465,132.5
+764DOWN,54,Manglapuri / Palam Village,28.77,77.47,135.0
+764DOWN,55,Matiyala Xing,28.775,77.47500000000001,137.5
+764DOWN,56,Rajapuri,28.78,77.48,140.0
+764DOWN,57,Dwarka Crossing / Suraj Vihar,28.785,77.485,142.5
+764DOWN,58,Nangli Sakrawati,28.79,77.49000000000001,145.0
+764DOWN,59,Nangli Sakrawati Crossing,28.795,77.495,147.5
+764DOWN,60,Naveen Place,28.8,77.5,150.0
+764DOWN,61,Kakrola More,28.805,77.50500000000001,152.5
+764DOWN,62,Madhu Vihar,28.81,77.51,155.0
+764DOWN,63,Jharoda Kalan,28.815,77.515,157.5
+764DOWN,64,Mrv School / Dwarka Sec- 13,28.82,77.52,160.0
+764DOWN,65,Nsit (Netaji Subhas Institute) / Sulahkul Mandir,28.825,77.525,162.5
+764DOWN,66,S.S. Kanya Vidhyalaya,28.83,77.53,165.0
+764DOWN,67,Jharoda Village,28.835,77.535,167.5
+764DOWN,68,Bangali Colony,28.84,77.54,170.0
+764DOWN,69,Tuda Mandi Najafgarh Road,28.845,77.545,172.5
+764DOWN,70,Palam Colony Flyover,28.85,77.55,175.0
+764DOWN,71,Sai Baba Mandir,28.855,77.555,177.5
+764DOWN,72,Nangli Dairy,28.86,77.56,180.0
+764DOWN,73,Arjun Park,28.865,77.565,182.5
+764DOWN,74,Crpf Jharoda,28.87,77.57000000000001,185.0
+764DOWN,75,Najafgarh Terminal,28.875,77.575,187.5
+764DOWN,76,Najafgarh Delhi Gate,28.88,77.58,190.0
+764DOWN,77,Najafgarh Dhansa Stand / Dhansa Crossing,28.885,77.58500000000001,192.5
+764DOWN,78,Jharoda Kalan Border (Satyam Puram),28.89,77.59,195.0
+R1UP,0,Anand Vihar ISBT,28.6469,77.3158,0.0
+R1UP,1,Laxmi Nagar,28.6304,77.2773,10.0
+R1UP,2,ITO,28.629,77.2425,25.0
+R1UP,3,Mandi House,28.6256,77.2343,35.0
+R1UP,4,Connaught Place,28.6328,77.2197,45.0
+R1DN,0,Connaught Place,28.6328,77.2197,0.0
+R1DN,1,Mandi House,28.6256,77.2343,10.0
+R1DN,2,ITO,28.629,77.2425,20.0
+R1DN,3,Laxmi Nagar,28.6304,77.2773,35.0
+R1DN,4,Anand Vihar ISBT,28.6469,77.3158,45.0
+R2UP,0,Anand Vihar ISBT,28.6469,77.3158,0.0
+R2UP,1,Karkardooma,28.648,77.299,8.0
+R2UP,2,Preet Vihar,28.639,77.288,16.0
+R2UP,3,Laxmi Nagar,28.6304,77.2773,24.0
+R2UP,4,Akshardham,28.6186,77.2775,32.0
+R2UP,5,ITO,28.629,77.2425,40.0
+R2UP,6,Delhi Gate,28.6406,77.241,48.0
+R2UP,7,Connaught Place,28.6328,77.2197,55.0

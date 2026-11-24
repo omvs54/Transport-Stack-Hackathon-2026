@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+secrets/
+config.json
+
+# Python cache & virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Large datasets & archives
+data/October-Delhi.csv
+data/*.zip
+*.zip
+*.tar.gz
+data/sample_tickets_SYNTHETIC.csv
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
